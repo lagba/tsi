@@ -1,0 +1,579 @@
+body {
+  font-family: MyFont;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
+.carousel-item {
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+/** Navigation **/
+.bg-top-navigation {
+  background-color: #273A64;
+}
+
+.bg-navigation {
+  background-color: #EEF3FA;
+  box-shadow: 0 0 5px #17A2B8;
+}
+
+.bg-navigation-phone {
+  background-color: #273A64;
+  border-bottom: 1px ridge;
+}
+
+#main-logo {
+  width: 170px;
+}
+
+.top-header2 {
+  color: #EEF3FA;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.top-header {
+  font-weight: bolder;
+  color: #17469E;
+  font-size: 17px;
+  text-align: center;
+}
+
+.service_dropdown, .service_dropdown:focus {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #17469E !important;
+}
+
+.service_dropdown_menu {
+  border-color: #17469E;
+}
+
+.service_dropdown_menu a {
+  color: #17469E;
+}
+
+.service_dropdown:hover, .service_dropdown:active {
+  color: red;
+}
+
+.navbar-toggler-icon {
+  background-image: url('../images/nav/toggler.jpg');
+  width: 50px;
+  height: 30px;
+}
+
+.header-phone {
+  font-weight: bolder;
+  color: #EEF0DD;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* MAIN CONTENT */
+
+.bg-content {
+  background-color: #EEF3FA;
+}
+
+.bg-content-container {
+  background-color: #EEF3FA;
+  padding: 4rem 0rem;
+}
+
+.inner-content {
+  padding: 1rem 0;
+}
+
+.content-tickets {
+  width: auto;
+  padding: 1rem 0;
+}
+
+.advantages-block {
+  margin: 1rem auto;
+  padding: 2rem 5px;
+  box-shadow: 0 0 5px #17A2B8;
+  border-radius: 20px;
+}
+
+/* TABS */
+
+.pc-tab > input {
+  display: none;
+}
+
+.tab1,
+.tab2 {
+  display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2 {
+  display: block;
+}
+
+.pc-tab nav {
+  box-shadow: none;
+}
+
+.pc-tab ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.pc-tab ul li label {
+  cursor: pointer;
+  padding: 15px 25px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin: 0;
+  color: #708090;
+  box-shadow: 0px 2px 0px 0px #DEE2E6;
+}
+
+.pc-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.pc-tab section {s
+  clear: both;
+}
+
+.pc-tab section div {
+  padding: 1rem 1rem;
+}
+
+.pc-tab ul li label:hover {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0px 2px 0px 0px #17A2B8 !important;
+  transition: 0.3s;
+}
+
+/* End of TABS */
+
+.tarif-card {
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  margin: 1rem 1rem;
+  background-color: #FAFAFA;
+  box-shadow: 0 0 3px grey;
+}
+
+.gift_tarif_box {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  background-color: #EAE803;
+  padding: 2px 8px;
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.gift_tarif_box p {
+  color: black;
+  font-size: 13px;
+  margin: 0;
+}
+
+.tarif-card-trigger {
+  padding: 0;
+  margin: 0;
+}
+
+.tarif-card:hover {
+  box-shadow: 0 0 10px grey;
+  transition: .8s;
+}
+
+.tarif-card:hover .gift_tarif_box {
+  box-shadow: 0 0 5px #EAE803;
+  transition: .8s;
+}
+
+.content-tickets-item {
+  font-weight: bolder;
+  color: #212529;
+  font-size: 17px;
+  text-align: center;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.content-tickets-item:hover { 
+  box-shadow: 0px 2px 0px 0px #17A2B8 !important;
+}
+
+.content-tickets-tabs {
+  padding: 1rem;
+  width: 95%;
+  margin: 0px auto;
+}
+
+.link-btn-style {
+  padding: 0;
+  margin: 1rem 1rem;
+}
+
+.slick-next:before {
+  color: #17A2B8;
+  font-size: 40px;
+}
+
+.slick-prev:before {
+  color: #17A2B8;
+  font-size: 40px;
+}
+
+.price-text {
+  font-size: 15px;
+  padding: 4px 0px;
+}
+
+.tarif-price {
+  padding-bottom: 1rem;
+  font-weight: bolder;
+  font-size: 30px; 
+}
+
+/* Modal tarif options */
+.modal-dialog-tarif-options {
+  max-width: 100% !important;
+  margin: 0 1rem;
+}
+
+.modal-tarif-options-right-part {
+  border-left: 1px solid #dee2e6;
+  width: 30%;
+}
+
+.modal-tarif-checker {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-payment-block {
+  position: sticky;
+  top: 0;
+}
+
+.modal-gift-date-counter {
+  border: 1px solid #dee2e6;
+  background-color: #4472C4;
+  padding: 8px 8px !important;
+  width: 100%;
+}
+
+.modal-gift-date-counter p {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.tarif_checker {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+input.tarif_checker:checked[type="checkbox"]:before {
+  border-radius: 0px;
+  border-left: none;
+  border-top: none;
+  width: 15px;
+  height: 30px;
+  border-color: #17469E;
+  transform: rotate(45deg) translate(5px, -5px);
+}
+
+input.tarif_checker[type="checkbox"]:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #262626;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+  outline: none;
+  transition: .5s;
+}
+
+input[type="checkbox"]:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #262626;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+input:checked[type="checkbox"]:before {
+  border-left: none;
+  border-top: none;
+  width: 10px;
+  height: 18px;
+  border-color: #17469E;
+  transform: rotate(45deg) translate(5px, -5px);
+}
+
+.tarif-set-price {
+  padding-bottom: 1rem;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.content-gifts {
+  background-color: #17A2B8;
+  background-repeat: no-repeat;
+  height: 320px;
+  padding: 1rem 1rem;
+  color: #EEF3FA;
+}
+
+.content-services {
+  background-color: #17A2B8;
+  height: 268px;
+  padding: 1rem 1rem;
+  color: #EEF3FA;
+}
+
+.document-links {
+  color: #282C34;
+  font-size: 14px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #17469E;
+}
+
+.company-content-pill {
+  color: #273A64;
+}
+
+.poisk {
+  height: 20px;
+  width: auto;
+  padding: 0;
+  font-size: 12px;
+}
+
+.modal-content-body-text {
+  font-size: 13px;
+}
+
+.modal-content-header-comment {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.modal-content-input {
+  border: none;
+  border-bottom: 1px ridge;
+  border-radius: 0;
+}
+
+.modal-contacts-block {
+  padding: 2rem 4rem;
+}
+
+.IntGiftText3 {
+  font-size: 13px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+figure:hover {
+  box-shadow: 5px 5px 10px black;
+  transition: .5s;
+}
+
+.company_values {
+  width: 200px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.company_values h5 {
+  color: #C66B3C;
+}
+
+.company_partners {
+  padding: 1rem;
+  width: 100%;
+}
+
+.company_partners td {
+  padding: 1rem;
+  text-align: center;
+  width: 100px;
+  height: 80px;
+}
+
+.product-description {
+  margin-top: 1rem;
+  background: url(../images/content/tsi2.jpg) 50% 50% no-repeat;
+  border-radius: 8px;
+  color: white;
+}
+
+.requisites {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.requisites td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.requisites tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* telegraph-forms */
+
+.input-telegraph {
+  background-color: #F5F3F0;
+  border: none;
+  border-bottom: 1px ridge;
+  border-radius: 5px;
+}
+
+.form-tab {
+  display: none;
+}
+
+#prevBtn, #nextBtn {
+  margin: 1rem auto;
+}
+
+#prevBtn:focus, #nextBtn:focus {
+  box-shadow: none !important;
+}
+
+.form-step-position {
+  border: 1px ridge #D4DBE2;
+  border-bottom-right-radius: 30px; 
+  border-top-right-radius: 30px;
+  background-color: #D4DBE2;
+  padding: 0 !important;
+}
+
+.form-step-position p {
+  margin: 10px 3px !important;
+  text-align: center;
+}
+
+/* end of telegraph-forms */
+
+/* footer */
+
+footer {
+  background-color: #12254F;
+  padding: 4rem 2rem;
+}
+
+.footer-links {
+  color: #EEF3FA;
+  font-size: 14px;
+}
+
+.footer-head {
+  color: #bdbdbd;
+}
+
+.social-icon {
+  font-size: 25px;
+}
+
+/* Media */
+
+@media (min-width: 992px) {
+  .top-header {
+    font-weight: bolder;
+    color: #17469E;
+    font-size: 17px;
+    text-align: center;
+    width: auto;
+    margin-left: 30px;
+  }
+
+  .product-description {
+    margin-top: 0;
+    background: url(../images/content/tsi2.jpg) 50% 50% no-repeat;
+    border-radius: 8px;
+    color: white;
+  }
+
+  #main-logo {
+    width: 170px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .bg-content {
+    padding: 1rem 2rem;
+  }
+
+  .script_ul {
+    width: 100% !important;
+  }
+
+  .script_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-tarif-options-right-part {
+    margin: 0 !important;
+    border-left: none;
+    width: 100%;
+  }
+
+  .modal-content-header-comment {
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 0;
+  }
+
+  .script_section > .tab1, .script_section > .tab2 {
+    width: 100% !important;
+  }
+}
+
+/*@media (min-width: 430px) and (max-width: 767px) {
+  .content-tickets-tabs {
+    padding: 1rem;
+    width: 75%;
+  }
+}
+
+

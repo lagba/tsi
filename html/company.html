@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>АО Тывасвязьинформ</title>
+    <style>
+       @font-face {
+        font-family: MyFont;
+        src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf);
+       }
+    </style>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="bg-top-navigation">
+      <div class="container">
+        <div class="row justify-content-lg-end justify-content-start text-right">
+          <div class="col-5 col-sm-3 col-md-2 col-lg-1 text-left ml-3" style="padding: 0; padding-left: 10px;"><a class="nav-link top-header2" href="../index.html" style="padding: 0.5rem 0;">Для меня &nbsp;<span class="fa fa-child"></span></a></div>
+          <div class="col-5 col-sm-4 col-md-3 col-lg-2 text-left mr-auto"><a class="nav-link top-header2" href="biznes.html">Для бизнеса &nbsp;<span class="fa fa-arrow-circle-right"></span></a></div>
+
+          <!-- Force next columns to break to new line -->
+          <div class="w-100 d-block d-lg-none"></div>
+
+          <div class="col-md-3 col-lg-2 align-self-center d-none d-md-block">
+            <input class="form-control poisk ml-3" type="text" placeholder="Поиск" aria-label="Search">
+          </div>
+
+          <div class="col-3 col-sm-3 col-md-3 col-lg-1 text-left"><a class="nav-link top-header2" href="help.html">Помощь</a></div>
+          <div class="col-3 col-sm-3 col-md-3 col-lg-1 text-left"><a class="nav-link top-header2" href="contacts.html">Контакты</a></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2"><a class="nav-link top-header2" href="https://web.tuva.ru/">Личный кабинет &nbsp;<span class="fa fa-user-o"></span></a></div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-navigation">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html"><img id="main-logo" src="../images/nav/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end mt-auto" id="navbarSupportedContent15">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link top-header" href="internet.html"><span class="fa fa-wifi"></span><br class="d-none d-lg-block"> Интернет</a></li>
+            <li class="nav-item"><a class="nav-link top-header" href="tel.html"><span class="fa fa-phone"></span><br class="d-none d-lg-block"> Телефония</a></li>
+            <li class="nav-item"><a class="nav-link top-header" href="iptv.html"><span class="fa fa-television"></span><br class="d-none d-lg-block"> IPTV</a></li>
+            <li class="nav-item"><a class="nav-link top-header" href="telegraph.html"><span class="fa fa-send"></span><br class="d-none d-lg-block"> Телеграф</a></li>
+            <li class="nav-item"><a class="nav-link top-header" href="pack.html"><span class="fa fa-archive"></span><br class="d-none d-lg-block"> Пакеты</a></li>
+            <li class="nav-item"><a class="nav-link top-header" href="gifts.html"><span class="fa fa-gift"></span><br class="d-none d-lg-block"> Акции</a></li>
+            <li class="nav-item"><a class="nav-link top-header" href="payment.html"><span class="fa fa-rub"></span><br class="d-none d-lg-block"> Оплата</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="bg-navigation-phone d-block d-lg-none">
+      <ul class="navbar-nav">
+        <li class="row justify-content-center nav-item"><a class="nav-link header-phone" href="#"><span class="fa fa-shopping-cart"></span><br class="d-none d-lg-block">&nbsp; &nbsp; 3 - 70 - 70</a></li>
+        <li class="row justify-content-center nav-item"><a class="nav-link header-phone" href="#"><span class="fa fa-question-circle-o"></span><br class="d-none d-lg-block">&nbsp; &nbsp; 2 - 01 - 10</a></li>
+      </ul>
+    </div>
+  <!-- End of Navigation -->
+  <!-- Content -->
+  <div class="bg-content">
+    <div class="container bg-content-container">
+      <div class="row inner-content">
+        <div class="col-12 col-sm-3">
+          <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active company-content-pill" id="v-pills-home-tab" data-toggle="pill" href="#company" role="tab" aria-controls="v-pills-home" aria-selected="true">О компании</a>
+            <a class="nav-link company-content-pill" id="v-pills-home-tab" data-toggle="pill" href="#history" role="tab" aria-controls="v-pills-home" aria-selected="true">История</a>
+            <a class="nav-link company-content-pill" id="v-pills-home-tab" data-toggle="pill" href="#strategy" role="tab" aria-controls="v-pills-home" aria-selected="true">Стратегия</a>
+            <a class="nav-link company-content-pill" id="v-pills-home-tab" data-toggle="pill" href="#mission" role="tab" aria-controls="v-pills-home" aria-selected="true">Миссия и видение</a>
+            <a class="nav-link company-content-pill" id="v-pills-home-tab" data-toggle="pill" href="#style" role="tab" aria-controls="v-pills-home" aria-selected="true">Фирменный стиль</a>
+            <a class="nav-link company-content-pill" id="v-pills-home-tab" data-toggle="pill" href="#directors" role="tab" aria-controls="v-pills-home" aria-selected="true">Руководство</a>
+            <a class="nav-link company-content-pill" id="v-pills-profile-tab" data-toggle="pill" href="#kues" role="tab" aria-controls="v-pills-profile" aria-selected="false">Офисы продаж</a>
+            <a class="nav-link company-content-pill" id="v-pills-profile-tab" data-toggle="pill" href="#contact" role="tab" aria-controls="v-pills-profile" aria-selected="false">Контакты</a>
+            <a class="nav-link company-content-pill" id="v-pills-profile-tab" data-toggle="pill" href="#recvisit" role="tab" aria-controls="v-pills-profile" aria-selected="false">Реквизиты</a>
+            <a class="nav-link company-content-pill" id="v-pills-profile-tab" data-toggle="pill" href="#news" role="tab" aria-controls="v-pills-profile" aria-selected="false">Новости</a>
+            <a class="nav-link company-content-pill" id="v-pills-messages-tab" data-toggle="pill" href="#documents" role="tab" aria-controls="v-pills-messages" aria-selected="false">Документы &nbsp;<span class="fa fa-caret-down"></span></a>
+            <a class="nav-link ml-3 company-content-pill" id="v-pills-messages-tab" data-toggle="pill" href="#license" role="tab" aria-controls="v-pills-messages" aria-selected="false">Лицензии компании</a>
+            <a class="nav-link ml-3 company-content-pill" id="v-pills-settings-tab" data-toggle="pill" href="#info" role="tab" aria-controls="v-pills-settings" aria-selected="false">Раскрытие информации субъектом естественной монополии</a>
+            <a class="nav-link ml-3 company-content-pill" id="v-pills-settings-tab" data-toggle="pill" href="#ord" role="tab" aria-controls="v-pills-settings" aria-selected="false">Положения</a>
+            <a class="nav-link ml-3 company-content-pill" id="v-pills-settings-tab" data-toggle="pill" href="#securework" role="tab" aria-controls="v-pills-settings" aria-selected="false">Охрана труда</a>
+            <a class="nav-link ml-3 company-content-pill" id="v-pills-settings-tab" data-toggle="pill" href="#wealth" role="tab" aria-controls="v-pills-settings" aria-selected="false">Списки аффилированных лиц</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-9 order-last">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="company" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h5 class="text-center m-3">ТВОЯ РЕСПУБЛИКА - ТВОЙ ОПЕРАТОР</h5>
+              <p>
+                АО «Тывасвязьинформ» является оператором связи, занимающим существенное положение в сети связи общего пользования на территории Республики Тыва.  Компания АО «Тывасвязьинформ» предоставляет полный комплекс телекоммуникационных услуг: телеграф, интернет, каналы связи, телевидение, внутризоновая и местная телефонная связь с применением передовых технологий в сфере услуг связи.
+              </p>
+              <p>
+                Предоставляет услуги связи на 24/7, всегда быстрая, надежная и компетентная техподдержка, а также доступный сервис.
+              </p>
+              <p>
+                Компания является основным на рынке телекоммуникационных услуг для органов государственной власти Республики Тыва, федеральных структур и корпоративных пользователей всех уровней.
+              </p>
+              <h5 class="text-center m-3">МЫ В ЦИФРАХ</h5>
+              <div class="d-flex">
+                <div class="company_values">
+                  <h5 class="text-center pb-3">75</h5>
+                  <p>
+                    Лет успешной работы.
+                  </p>
+                </div>
+                <div class="company_values">
+                  <h5 class="text-center pb-3">360</h5>
+                  <p>
+                    Более 360 сотрудников.
+                  </p>
+                </div>
+                <div class="company_values">
+                  <h5 class="text-center pb-3">17</h5>
+                  <p>
+                    Офисов продаж
+                  </p>
+                </div>
+                <div class="company_values">
+                  <h5 class="text-center pb-3">1390</h5>
+                  <p>
+                    Протяженность ВОЛС более 1390 км.
+                  </p>
+                </div>
+              </div>
+              <h5 class="text-center m-3">НАШИ КЛИЕНТЫ</h5>
+              <table class="company_partners">
+               <tr>
+                <td>
+                  Правительство РТ</br>
+                  (логотип)
+                </td>
+                <td>
+                  Судебный департамент РТ</br>
+                  (логотип)
+                </td>
+                <td>
+                  МВД Республики Тыва</br>
+                  (логотип)
+                </td>
+                <td>
+                  ФСБ Республики Тыва</br>
+                  (логотип)
+                </td>
+               </tr>
+               <tr>
+                <td>
+                  АО "Тываэнергосбыт"</br>
+                  (логотип)
+                </td>
+                <td>
+                  АО "Кызылская ТЭЦ"</br>
+                  (логотип)
+                </td>
+                <td>
+                  ООО "Водоканал-сервис"</br>
+                  (логотип)
+                </td>
+                <td>
+                  АО "Россельхозбанк"</br>
+                  (логотип)
+                </td>
+               </tr>
+             </table>
+             <h5 class="text-center m-3">НАШИ ДОСТИЖЕНИЯ</h5>
+             <div class="advantages-block d-flex align-items-center justify-content-center" style="height: 200px;">
+               <h2 class="text-center">Блок с фотографиями наград ТСИ</h2>
+             </div>
+             <h5 class="text-center m-3">ДОСТИЖЕНИЯ НАШИХ СОТРУДНИКОВ</h5>
+             <div class="advantages-block d-flex align-items-center justify-content-center" style="height: 200px;">
+               <h2 class="text-center">Блок с фотографиями наград сотрудников</h2>
+             </div>
+             <div class="mt-3">
+               <h5>Примеры страницы с других сайтов:</h5>
+               <a href="https://wifinder.biz/#rec164765357">Пример 1. Wifinder</a><br>
+               <a href="https://job.mts.ru/about">Пример 2. ПАО "МТС"</a>
+             </div>
+            </div>
+            <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h5 class="text-center m-3">ИСТОРИЯ КОМПАНИИ</h5>
+              <div class="advantages-block d-flex align-items-center justify-content-center" style="height: 500px;">
+                <h2 class="text-center">Блок с видеороликом ТСИ</h2>
+              </div>
+              <h5 class="text-center mt-3">ХРОНОЛОГИЯ</h5>
+              <div class="d-flex mt-3">
+                <div class="company_values">
+                  <h5>I этап</h5>
+                  <p>
+                    Этап становления электросвязи, развитие телефонной связи и узлов радиофикации.
+1944-1970гг. Подвеска медной телефонной цепи на участке Минусинск – Кызыл. Строительство телефонной станции ЦБ в г. Кызыл и реконструкция телефонных линий связи с районными центрами. Ручные коммутаторы. Организация телеграфной связи по скородействующей телеграфной аппаратуре. Радиосвязь на территории Республики Тыва. Узлы радиофикации в районах.  Развитие декадно-шаговых и координатных телефонных станций.
+                  </p>
+                </div>
+                <div class="company_values">
+                  <h5>II этап</h5>
+                  <p>
+                    Этап развития междугородней автоматической телефонной и телевизионной связи на территории Республики Тыва.
+1970-1998гг. Строительство воздушных телефонных цепей. Развитие радиорелейных линий связи. Организация многоканальной телефонной связи с выходом на сеть Союза. Подача центральной телевизионной программы на телецентр с дальнейшим распространением сигнала на территории республики.
+Ввод в эксплуатацию междугородной автоматической телефонной связи на базе EWSD и развитие внутризоновой автоматической телефонной связи на территории Республики Тыва. Строительство электронных АТС «КВАНТ».
+                  </p>
+                </div>
+                <div class="company_values">
+                  <h5>III этап</h5>
+                  <p>
+                    Этап начала развития Интернет.
+1998-2009гг. Модернизация внутризоновых линий связи, развитие пейджинговой радиотелефонной связи и начало развития Интернет по телефонной линии связи. Замена аналоговых и электронных телефонных станций на цифровые.
+                  </p>
+                </div>
+                <div class="company_values">
+                  <h5>IV этап</h5>
+                  <p>
+                    Этап развития информационных технологий и цифровизация.
+2009-2019гг. Развитие широкополосных сетей: массовый широкополосный доступ к сети Интернет и организация виртуальных частных каналов (VPN). Замена аналоговых радиорелейных линий связи на цифровые. Развитие IP технологий: ip-телефония, ip-телевидение (IPTV) и видеонаблюдение.
+Переход на волоконно-оптические линии связи.
+                  </p>
+                </div>
+              </div>
+              <div class="mt-3">
+                <h5>Примеры страницы с других сайтов:</h5>
+                <a href="http://www.историясвязи.рф/">Пример 1. История связи</a>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="strategy" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h5 class="text-center m-3">СТРАТЕГИЯ КОМПАНИИ</h5>
+              Повышение качества обслуживания клиентов и выход на лидерские позиции на территории Республики Тыва, обеспечение роста за счет развития телекоммуникационной сети и достижение устойчивой доходности.
+            </div>
+            <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h5 class="text-center m-3">МИССИЯ КОМПАНИИ</h5>
+              Мы создаем и расширяем современные телекоммуникационные услуги, делая их простыми, удобными, доступными для организаций и жителей Республики Тыва. Наши технологии дают возможность безграничного общения и мгновенного обмена информацией.
+              <h5 class="text-center m-3">ВИДЕНИЕ КОМПАНИИ</h5>
+              Тывасвязьинформ - современная телекоммуникационная компания, поставщик услуг, превосходящий ожидания.
+              <div class="mt-3">
+                <h5>Примеры страницы с других сайтов:</h5>
+                <a href="https://www.company.rt.ru/about/mission_vision/">Пример 1. Ростелеком</a>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h5 class="text-center m-3">ФИРМЕННЫЙ СТИЛЬ КОМПАНИИ</h5>
+              Элементы фирменного стиля должны воспроизводиться только с оригинальных файлов, приведенных ниже. Запрещается их воссоздание с помощью графических редакторов и прочего программного обеспечения.
+              <div class="m-3 advantages-block d-flex align-items-center justify-content-center w-75" style="height: 800px;">
+                <h2 class="text-center p-3">Блок с логотипами и другой атрибутикой ТСИ</h2>
+              </div>
+              <div class="mt-3">
+                <h5>Примеры страницы с других сайтов:</h5>
+                <a href="https://www.company.rt.ru/about/identity/">Пример 1. Ростелеком</a>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="directors" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h5 class="text-center m-3">РУКОВОДСТВО</h5>
+              <h6 class="text-center m-3 p-3">ТОП-МЕНЕДЖМЕНТ</h6>
+              <div class="media mt-3">
+                <img src="../images/gd.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Генеральный директор</h6>
+                  Хертек Сылдыс Орлановна
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Заместитель генерального директора - технический директор</h6>
+                  Ондар Орлан-оол Владимирович
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Заместитель генерального директора - начальник службы обеспечения</h6>
+                  Ламажап Артыш Александрович
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Финансовый директор</h6>
+                  Иванова Лолита Ивановна
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Коммерческий директор</h6>
+                  Комбу Айна Хертековна
+                </div>
+              </div>
+              <h6 class="text-center m-3 p-3">НАЧАЛЬНИКИ СТРУКТУРНЫХ ПОДРАЗДЕЛЕНИЙ</h6>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник производственно-технического отдела</h6>
+                  Баталова Марина Геннадьевна
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник отдела информационных технологий</h6>
+                  Монгуш Эдуард Борисович
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник отдела телефонно-телеграфной связи</h6>
+                  Сат Эмилия Аполоновна
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник отдела линейно-кабельных сооружений</h6>
+                  Кыргыс Виктор Кызыл-Кушович
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник отдела радиорелейной связи</h6>
+                  Панасюра Виктор Олегович
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник отдела правовой и кадровой политики</h6>
+                  Донгак Аржаана Маадыр-ооловна
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Главный энергетик</h6>
+                  Сан-оол Эрес Викторович
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник центра продаж услуг</h6>
+                  Сарыглар Аяна Кошкар-ооловна
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник автобазы</h6>
+                  Кара-оол Роман Орланович
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="../images/blank_dir.png" class="mr-3" alt="...">
+                <div class="media-body">
+                  <h6 class="mt-0">Начальник отдела электроснабжения</h6>
+                  Монгуш Кара-кат Геннадьевич
+                </div>
+              </div>
+              <div class="mt-3">
+                <h5>Примеры страницы с других сайтов:</h5>
+                <a href="https://corp.megafon.ru/investoram/management/direction/">Пример 1. Мегафон</a><br>
+                <a href="https://kyzyl.beeline.ru/about/about-beeline/management/top-management/">Пример 1. Билайн</a>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="kues" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <h5 class="text-left">ОФИСЫ ПРОДАЖ</h5>
+              <div class="m-3">
+                <img src="../images/map.png">
+              </div>
+              <div class="m-3">
+                <h5 class="text-left">Комментарии</h5>
+                Предлагаем оформить доступ к информации об офисе продаж (КУЭСе) путем нажатия на карте соответствующего региона. При этом после отображается достаточная информация об офисе: адреса и телефоны, руководство и др. Добавить анимацию и карту покрытия сетей ТСИ.
+              </div>
+              <div class="mt-3">
+                <h5>Примеры страницы с других сайтов:</h5>
+                <a href="https://yotazone.ru/zona-pokrytiya-yota/">Пример 1. Yota</a><br>
+                <a href="http://www.netbynet.ru/about/company/network">Пример 1. Netbynet</a>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <h5 class="text-center m-3">КОНТАКТЫ</h5>
+              <div class="d-flex flex-column">
+                <h5 class="text-left mt-3">Место нахождения</h5>
+                <p>Республика Тыва, город Кызыл, улица Кочетова, дом 53</p>
+                <h5 class="text-left mt-3">Почтовый адрес</h5>
+                <p>667000, Республика Тыва, город Кызыл, улица Кочетова, дом 53</p>
+                <h5 class="text-left mt-3">Телефон: + 7 (394-22) 3-70-70</h5>
+                <h5 class="text-left mt-3">Факс: + 7 (394-22) 2-12-92</h5>
+                <h5 class="text-left mt-3">Адрес электронной почты: gpsi@tvsi.ru</h5>
+                <h5 class="text-left mt-3">ИНН/КПП: 1701034426/170101001</h5>
+              </div>
+              <div class="p-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2471.7690328890376!2d94.436398315388!3d51.71896797967044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d3b96c0c8e75ed9%3A0x32097d1ebf0dcf4f!2z0KLRi9Cy0LDRgdCy0Y_Qt9GM0LjQvdGE0L7RgNC8!5e0!3m2!1sru!2sru!4v1593858619560!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+              <div class="mt-3">
+                <h5>Примеры страницы с других сайтов:</h5>
+                <a href="https://www.company.rt.ru/contacts/">Пример 1. Ростелеком</a><br>
+                <a href="https://www.yota.ru/contacts">Пример 2. Yota</a><br>
+                <a href="https://kyzyl.beeline.ru/customers/contact-page/">Пример 3. Beeline</a>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="recvisit" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <h5 class="text-center m-3">РЕКВИЗИТЫ</h5>
+              <table class="requisites">
+                <tr>
+                  <td>Наименование организации</td>
+                  <td>Акционерное общество Тывасвязьинформ</td>
+                </tr>
+                <tr>
+                  <td>Краткое наименование</td>
+                  <td>АО Тывасвязьинформ</td>
+                </tr>
+                <tr>
+                  <td>Юридический адрес</td>
+                  <td>667000, Республика Тыва, город Кызыл, улица Кочетова, дом 53</td>
+                </tr>
+                <tr>
+                  <td>Почтовый адрес</td>
+                  <td>667000, Республика Тыва, город Кызыл, улица Кочетова, дом 53</td>
+                </tr>
+                <tr>
+                  <td>ИНН</td>
+                  <td>1701034426</td>
+                </tr>
+                <tr>
+                  <td>Номер телефона</td>
+                  <td>+7 394 22 3 70 70</td>
+                </tr>
+                <tr>
+                  <td>Наименование банка</td>
+                  <td>Тувинский РФ АО Россельхозбанк, г. Кызыл</td>
+                </tr>
+                <tr>
+                  <td>Расчетный счет</td>
+                  <td>40702810757000000465</td>
+                </tr>
+                <tr>
+                  <td>Корреспондетский счет</td>
+                  <td>301018104000000738</td>
+                </tr>
+                <tr>
+                  <td>БИК</td>
+                  <td>049304738</td>
+                </tr>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <h5 class="text-center m-3">НОВОСТИ</h5>
+              <div class="advantages-block d-flex align-items-center justify-content-center" style="height: 500px;">
+               <h2 class="text-center">Блок с новостями</h2>
+             </div>
+            </div>
+            <div class="tab-pane fade" id="documents" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <h5 class="text-center m-3">ДОКУМЕНТЫ КОМПАНИИ</h5>
+              <ul>
+                <li><a class="document-links" href="#">Информация за 2019 год</a></li>
+                <li>
+                  <a class="document-links" href="#">Информация о тарифах, предельных уровнях тарифов (тарифных планов) на услуги местной телефонной связи, предоставляемые АО «Тывасвязьинформ» на территории Республики Тыва с 01.01.2020 г.
+                  </a>
+                </li>
+                <li>
+                  <a class="document-links" href="#">Информация о тарифах на услугу «передача внутренней телеграммы», утвержденных ФАС России и установленных АО «Тывасвязьинформ» на территории Республики Тыва с 01.09.2019 г.
+                  </a>
+                </li>
+                <li><a class="document-links" href="#">Информация за 2018 год</a></li>
+                <li><a class="document-links" href="#">И так далее</a></li>
+              </ul>
+              <div class="mt-3">
+                <h5>Примеры страницы с других сайтов:</h5>
+                <a href="https://moskva.mts.ru/about/investoram-i-akcioneram/korporativnoe-upravlenie/dokumenti-pao-mts
+                  ">Пример 1. МТС
+                </a>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="license" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <h6 class="text-left">ЛИЦЕНЗИИ КОМПАНИИ</h6>
+              <ol class="mt-3">
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание услуг местной телефонной связи, за исключением услуг местной телефонной связи с использованием таксофонов и средств коллективного доступа №161498 от 11.04.2018г. до 11.04.2023г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Свидетельство о регистрации электролабаратории №737 от 27.04.2017г. до 27.04.2020 г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Свидетельство о допускек определенному виду или видам работ №СРО-П-51-1701034426-04062015-00188 бессрочно
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на осуществление работ с использованием сведений, составляющих государственную тайну ГТ №0060511 от 14.06.2013 до 23.12.2019г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на осуществление деятельности по перевозкам пассажиров и иных лиц автобусами №АН-24-000675 от 30.04.2019 г. бессрочно
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на осуществление деятельности по монтажу, техническому обслуживанию и ремонту средств обеспечения пожарной безопасности зданий и сооружений №17-Б-00004 от 04.08.2014г. бессрочно
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание услуг связи по передаче данных для целей передачи голосовой информации №165155 от 04.09.2018г. до 04.09.2023г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации №165159 от 04.09.2018г. до 04.09.2023г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание услуг связи для целей кабельного вещания №155350 от 28.08.2017 г. до 28.08.2022г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание услуг местной телефонной связи с использованием средств коллективного доступа №157669 от 20.11.2017г. до 20.11.2022 г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание услуг внутризоновой тефонной связи №161497 от 11.04.2018 г. до 11.04.2023г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание услуг связи по предоставлению каналов связи №165156 от 04.09.2018г. до 04.09.2023г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание телематических услуг связи №165157 от 04.09.2018 г. до 04.09.2023 г.
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">
+                    Лицензия на оказание услуг телеграфной связи №165158 от 04.09.2018 г. до 04.09.2023 г.
+                  </a>
+                </li>
+              </ol>
+              <div class="mt-3">
+                <h5>Примеры страницы с других сайтов:</h5>
+                <a href="https://www.company.rt.ru/about/lic_and_cert/licence/">Пример 1. Ростелеком</a>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <h6 class="text-left">РАСКРЫТИЕ ИНФОРМАЦИИ О СУБЪЕКТЕ ЕСТЕСТВЕННОЙ МОНОПОЛИИ</h6>
+              <ol class="mt-3">
+                <li class="mt-3">
+                  <a class="document-links" href="#">Информация за 2019 год.</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Информация о тарифах, предельных уровнях тарифов (тарифных планов) на услуги местной телефонной связи, предоставляемые АО «Тывасвязьинформ» на территории Республики Тыва с 01.01.2020 г.</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Информация о тарифах на услугу «передача внутренней телеграммы», утвержденных ФАС России и установленных АО «Тывасвязьинформ» на территории Республики Тыва с 01.09.2019 г.</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Информация за 2018 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Информация за 2017 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Информация о тарифах на услугу «передача внутренней телеграммы», утвержденных ФАС России и установленных АО «Тывасвязьинформ» на территории Республики Тыва с 14.05.2018 г.</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">И так далее</a>
+                </li>
+              </ol>
+            </div>
+            <div class="tab-pane fade" id="ord" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <h6 class="text-left">ПОЛОЖЕНИЯ</h6>
+              <ol class="mt-3">
+                <li class="mt-3">
+                  <a class="document-links" href="#">Политика об обработке персональных данных</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Условия обработки информации о пользователях</a>
+                </li>
+              </ol>
+            </div>
+            <div class="tab-pane fade" id="securework" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <h6 class="text-left">ОХРАНА ТРУДА</h6>
+              <ol class="mt-3">
+                <li class="mt-3">
+                  <a class="document-links" href="#">Положение по охране труда 1</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Положение по охране труда 2</a>
+                </li>
+              </ol>
+            </div>
+            <div class="tab-pane fade" id="wealth" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <h6 class="text-left">СПИСКИ АФФИЛИРОВАННЫХ ЛИЦ</h6>
+              <ol class="mt-3">
+                <li class="mt-3">
+                  <a class="document-links" href="#">Список аффилированных лиц - 31.12.2018 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Список аффилированных лиц - 30.09.2018 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Список аффилированных лиц - 30.06.2018 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Список аффилированных лиц - 31.03.2018 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Список аффилированных лиц - 31.12.2017 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Список аффилированных лиц - 02.10.2017 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Список аффилированных лиц - 01.07.2017 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">Список аффилированных лиц - 01.04.2017 год</a>
+                </li>
+                <li class="mt-3">
+                  <a class="document-links" href="#">И так далее</a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End of Content -->
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5 class="footer-head">Тывасвязьинформ</h5>
+          <ul class="list-unstyled">
+            <li><a class="footer-links" href="company.html">О компании</a></li>
+            <li><a class="footer-links" href="offices.html">Офисы продаж</a></li>
+            <li><a class="footer-links" href="job.html">Вакансии</a></li>
+            <li><a class="footer-links" href="#">Политика об обработке персональных данных</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 navbar-expand">
+          <h5 class="footer-head text-left">Мы в социальных сетях</h5>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link footer-head" href="#"><span class="fa fa-facebook-official social-icon"></span></a></li>
+            <li class="nav-item"><a class="nav-link footer-head" href="#"><span class="fa fa-vk social-icon"></span></a></li></li>
+            <li class="nav-item"><a class="nav-link footer-head" href="#"><span class="fa fa-instagram social-icon"></span></a></li></li>
+            <li class="nav-item"><a class="nav-link footer-head" href="#"><span class="fa fa-youtube social-icon"></span></a></li></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6">
+          <h5 class="footer-head text-right d-none d-lg-block">Контактный телефон</h5>
+          <h1 class="footer-head text-right d-none d-lg-block">+7 (394-22) 3 - 70 - 70</h1>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+  <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
