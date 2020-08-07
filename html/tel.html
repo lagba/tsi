@@ -47,9 +47,9 @@
         <div class="collapse navbar-collapse justify-content-end mt-auto" id="navbarSupportedContent15">
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link top-header" href="internet.html"><span class="fa fa-wifi"></span><br class="d-none d-lg-block"> Интернет</a></li>
-            <li class="nav-item"><a class="nav-link top-header" href="#"><span class="fa fa-phone"></span><br class="d-none d-lg-block"> Телефония</a></li>
+            <li class="nav-item"><a class="nav-link top-header" href="#"><span class="fa fa-phone"></span><br class="d-none d-lg-block"> Телефон</a></li>
             <li class="nav-item"><a class="nav-link top-header" href="iptv.html"><span class="fa fa-television"></span><br class="d-none d-lg-block"> IPTV</a></li>
-            <li class="nav-item"><a class="nav-link top-header" href="telegraph.html"><span class="fa fa-send"></span><br class="d-none d-lg-block"> Телеграф</a></li>
+            <li class="nav-item"><a class="nav-link top-header" href="telegraph.html"><span class="fa fa-send"></span><br class="d-none d-lg-block"> Телеграмма</a></li>
             <li class="nav-item"><a class="nav-link top-header" href="pack.html"><span class="fa fa-archive"></span><br class="d-none d-lg-block"> Пакеты</a></li>
             <li class="nav-item"><a class="nav-link top-header" href="gifts.html"><span class="fa fa-gift"></span><br class="d-none d-lg-block"> Акции</a></li>
             <li class="nav-item"><a class="nav-link top-header" href="payment.html"><span class="fa fa-rub"></span><br class="d-none d-lg-block"> Оплата</a></li>
@@ -90,7 +90,7 @@
           <div class="col-12 col-md-6 col-lg-9">
             <div class="h-100 p-md-3">
               <div class="product-description h-100 p-3">
-                <h5 class="text-right">Ноль внутри Тувы</h5>
+                <h5 class="text-right">Ноль рублей внутри сети Тывасвязьинформ</h5>
                 <p class="text-right mt-3">Звоните внутри республики Тыва с домашнего телефона</p>
                 <p class="text-right mt-3">Междугородние звонки по России</p>
                 <p class="text-right mt-3">Звоните в другие страны</p>
@@ -102,7 +102,7 @@
       
       <!-- Modal content (Подключение) -->
       <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 800px !important;">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="text-left">Заполните заявку</h5>
@@ -112,7 +112,7 @@
             </div>
             <div class="modal-header">
               <div>
-                <h6 class="text-center modal-content-header-comment">После того, как вы оставите заявку, с вами свяжется менеджер для уточнения и подтверждения информации о подключении.</h6>
+                <h6 class="text-center modal-content-header-comment">Скоро с Вами свяжется менеджер для подтверждения информации о подключении.</h6>
               </div>
             </div>
             <div class="modal-body">
@@ -120,19 +120,23 @@
                 <div class="form-group row">
                   <label for="colFormLabel" class="col-4 col-form-label modal-content-body-text">Контактное лицо</label>
                   <div class="col-8">
-                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Как Вас зовут?">
+                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Как Вас зовут?" style="width: 70%;">
                   </div>
                 </div>
                 <div class="form-group row">
                   <label for="colFormLabel" class="col-4 col-form-label modal-content-body-text">Контактный номер</label>
                   <div class="col-8">
-                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="+7(___)___-___">
+                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="+7(___)___-___" style="width: 70%;">
                   </div>
                 </div>
-                <div class="form-group row">
-                  <label for="colFormLabel" class="col-4 col-form-label modal-content-body-text">Адрес проживания</label>
-                  <div class="col-8">
-                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Фактический адрес?">
+                <div class="form-group row d-flex flex-column">
+                  <label for="colFormLabel" class="col-4 col-form-label modal-content-body-text">Адрес подключения</label>
+                  <div class="col-8 d-flex flex-md-row flex-column">
+                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Город/село" style="margin: 1rem 1rem; width: 140px;">
+                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Улица" style="margin: 1rem 1rem; width: 140px;">
+                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Дом" style="margin: 1rem 1rem; width: 100px;">
+                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Корпус" style="margin: 1rem 1rem; width: 100px;">
+                    <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Квартира" style="margin: 1rem 1rem; width: 100px;">
                   </div>
                 </div>
               </form>
@@ -227,9 +231,6 @@
         <li class="nav-item" role="presentation">
           <a class="nav-link content-tickets-item" id="contact-tab" data-toggle="tab" href="#device" role="tab" aria-controls="packets" aria-selected="false">Стоимость оборудования</a>
         </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link content-tickets-item" id="contact-tab" data-toggle="tab" href="#others" role="tab" aria-controls="packets" aria-selected="false">Прочие тарифы</a>
-        </li>
       </ul>
       <div class="tab-content w-100" id="myTabContent">
         <!-- Main tab -->
@@ -255,19 +256,6 @@
             <div class="col-12 col-md-6 content-tickets-tabs-items d-flex flex-column">
               <h5 class="text-left">IP-телефон</h5>
               <h3 class="text-left tarif-price mt-auto">4100 руб.</h3>
-            </div>
-          </div>
-        </div>
-        <!-- Others tab -->
-        <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="contact-tab">
-          <div class="row content-tickets-tabs">
-            <div class="col-12 col-md-6 content-tickets-tabs-items d-flex flex-column">
-              <h5 class="text-left">Подключение услуги определеня номера</h5>
-              <h3 class="text-left tarif-price mt-auto">108 руб.</h3>
-            </div>
-            <div class="col-12 col-md-6 content-tickets-tabs-items d-flex flex-column">
-              <h5 class="text-left">Установка параллельного телефонного аппарата (у одного абонента)</h5>
-              <h3 class="text-left tarif-price mt-auto">268 руб.</h3>
             </div>
           </div>
         </div>

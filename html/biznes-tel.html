@@ -192,9 +192,9 @@
           <h4 class="col-12 text-center m-3">Менеджер по работе с юридическими лицами</h4>
         </div>
 
-        <!-- Modal content (Заявки) -->
+        <!-- Modal content (Подключение) -->
         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-dialog modal-dialog-centered" style="max-width: 800px !important;">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="text-left">Заполните заявку</h5>
@@ -204,7 +204,7 @@
               </div>
               <div class="modal-header">
                 <div>
-                  <h6 class="text-center modal-content-header-comment">После того, как вы оставите заявку, с вами свяжется менеджер для уточнения и подтверждения информации о подключении.</h6>
+                  <h6 class="text-center modal-content-header-comment">Скоро с Вами свяжется менеджер для подтверждения информации о подключении.</h6>
                 </div>
               </div>
               <div class="modal-body">
@@ -212,19 +212,23 @@
                   <div class="form-group row">
                     <label for="colFormLabel" class="col-4 col-form-label modal-content-body-text">Контактное лицо</label>
                     <div class="col-8">
-                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Как Вас зовут?">
+                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Как Вас зовут?" style="width: 70%;">
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="colFormLabel" class="col-4 col-form-label modal-content-body-text">Контактный номер</label>
                     <div class="col-8">
-                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="+7(___)___-___">
+                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="+7(___)___-___" style="width: 70%;">
                     </div>
                   </div>
-                  <div class="form-group row">
-                    <label for="colFormLabel" class="col-4 col-form-label modal-content-body-text">Адрес организации</label>
-                    <div class="col-8">
-                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Фактический адрес?">
+                  <div class="form-group row d-flex flex-column">
+                    <label for="colFormLabel" class="col-4 col-form-label modal-content-body-text">Адрес подключения</label>
+                    <div class="col-8 d-flex flex-md-row flex-column">
+                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Город/село" style="margin: 1rem 1rem; width: 140px;">
+                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Улица" style="margin: 1rem 1rem; width: 140px;">
+                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Дом" style="margin: 1rem 1rem; width: 100px;">
+                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Корпус" style="margin: 1rem 1rem; width: 100px;">
+                      <input type="" class="form-control modal-content-input modal-content-header-comment" id="colFormLabel" placeholder="Квартира" style="margin: 1rem 1rem; width: 100px;">
                     </div>
                   </div>
                 </form>
@@ -234,7 +238,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-outline-dark close2" data-dismiss="modal" data-toggle="modal" data-target="#staticBackdrop2">Готово</button>
+                <button type="button" class="btn btn-outline-dark close2" data-dismiss="modal" data-toggle="modal" data-target="#staticBackdrop3">Готово</button>
               </div>
             </div>
           </div>
