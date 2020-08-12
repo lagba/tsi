@@ -26,6 +26,16 @@ var Telephone = [
         "setPrice1" : 72,
         "setPrice2" : 2700,
         "monthPrice" : 241
+      },
+      {
+        "setPrice1" : 72,
+        "setPrice2" : 2700,
+        "monthPrice" : 380
+      },
+      {
+        "setPrice1" : 500,
+        "setPrice2" : 2700,
+        "monthPrice" : 241
       }
   ];
 var Iptv = [
@@ -45,6 +55,7 @@ var Internet_gift = [
         "setPrice1" : 100,
         "monthPrice" : 500
       }
+  
   ];
 
 // Очистка чекбоксов после перезагрузки страницы
@@ -165,7 +176,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/router.png"/>
+          <img src="/images/content/tarif_cards/router.png"/>
           <span class="p-3">Wi-Fi роутер</span>
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -199,7 +210,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/ip-tv.png"/>
+          <img src="/images/content/tarif_cards/ip-tv.png"/>
           <span class="p-3">Домашнее телевидение</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -244,7 +255,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV_box" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/ip-tv_box.png"/>
+          <img src="/images/content/tarif_cards/ip-tv_box.png"/>
           <span class="p-3">IPTV приставка</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -278,7 +289,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifAV" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/antivirus.png"/>
+          <img src="/images/content/tarif_cards/antivirus.png"/>
           <span class="p-3">Антивирус</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -287,7 +298,7 @@ function getPriceInt(box, i) {
       <div class="collapse" id="collapseTarifAV">
         <!-- Kaspersky -->
         <div class="pl-3 media">
-          <img src="./images/content/tarif_cards/kasper.png" class="mr-3"/>
+          <img src="/images/content/tarif_cards/kasper.png" class="mr-3"/>
           <div class="media-body p-0">
             <h6 class="mt-0">Kaspersky Antivirus на одно устройство ПК</h6>
             <p class="m-0">Защита компьютера с ОС Windows от основных видов интернет-угроз.</p>
@@ -327,7 +338,7 @@ function getPriceInt(box, i) {
         </div>
         <!-- Dr Web -->
         <div class="pl-3 media">
-          <img src="./images/content/tarif_cards/drweb.png" class="mr-3"/>
+          <img src="/images/content/tarif_cards/drweb.png" class="mr-3"/>
           <div class="media-body p-0">
             <h6 class="mt-0">Dr. Web Премиум</h6>
             <p class="m-0">Лицензионная защита на 1 компьютер</p>
@@ -375,7 +386,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifCamera" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/camera.png"/>
+          <img src="/images/content/tarif_cards/camera.png"/>
           <span class="p-3">Видеонаблюдение</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -425,7 +436,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/router.png"/>
+          <img src="/images/content/tarif_cards/router.png"/>
           <span class="p-3">Wi-Fi роутер</span>
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -459,7 +470,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/ip-tv.png"/>
+          <img src="/images/content/tarif_cards/ip-tv.png"/>
           <span class="p-3">Домашнее телевидение</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -504,7 +515,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV_box" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/ip-tv_box.png"/>
+          <img src="/images/content/tarif_cards/ip-tv_box.png"/>
           <span class="p-3">IPTV приставка</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -538,7 +549,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifAV" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/antivirus.png"/>
+          <img src="/images/content/tarif_cards/antivirus.png"/>
           <span class="p-3">Антивирус</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -547,7 +558,7 @@ function getPriceInt(box, i) {
       <div class="collapse" id="collapseTarifAV">
         <!-- Kaspersky -->
         <div class="pl-3 media">
-          <img src="./images/content/tarif_cards/kasper.png" class="mr-3"/>
+          <img src="/images/content/tarif_cards/kasper.png" class="mr-3"/>
           <div class="media-body p-0">
             <h6 class="mt-0">Kaspersky Antivirus на одно устройство ПК</h6>
             <p class="m-0">Защита компьютера с ОС Windows от основных видов интернет-угроз.</p>
@@ -587,7 +598,7 @@ function getPriceInt(box, i) {
         </div>
         <!-- Dr Web -->
         <div class="pl-3 media">
-          <img src="./images/content/tarif_cards/drweb.png" class="mr-3"/>
+          <img src="/images/content/tarif_cards/drweb.png" class="mr-3"/>
           <div class="media-body p-0">
             <h6 class="mt-0">Dr. Web Премиум</h6>
             <p class="m-0">Лицензионная защита на 1 компьютер</p>
@@ -635,7 +646,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifCamera" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/camera.png"/>
+          <img src="/images/content/tarif_cards/camera.png"/>
           <span class="p-3">Видеонаблюдение</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -963,158 +974,1148 @@ function getPriceTel(box, i) {
     var totalOncePriceAll = 0;
     var totalMonthPriceAll = 0;
 
-    $('h6.script_headerText').text('У Вас телефонизированное помещение?');
-    $('ul.script_ul').html(`
-    <li class="nav-item">
-      <label class="tes" for="tab1" style="box-shadow: 0px 2px 0px 0px #17A2B8; color: black;">Да, телефонная проводка проведена</label>
-    </li>
-    <li class="nav-item">
-      <label class="tes" for="tab2">Нет, телефонная проводка не проведена</label>
-    </li>`);
-    $('h6.script_headerText').css({
-      'font-style': 'normal'
-    });
-    $('ul.script_ul').css({
-      'width': '70%'
-    });
+    if (i == 0) {
+      $('h6.script_headerText').text('У Вас телефонизированное помещение?');
+      $('ul.script_ul').html(`
+      <li class="nav-item">
+        <label class="tes" for="tab1" style="box-shadow: 0px 2px 0px 0px #17A2B8; color: black;">Да, телефонная проводка проведена</label>
+      </li>
+      <li class="nav-item">
+        <label class="tes" for="tab2">Нет, телефонная проводка не проведена</label>
+      </li>`);
+      $('h6.script_headerText').css({
+        'font-style': 'normal'
+      });
+      $('ul.script_ul').css({
+        'width': '70%'
+      });
 
-    $('section.script_section').html(`
+      $('section.script_section').html(`
 
-    <!-- Left half -->
-    <!-- Tab1 -->
-    <div class="tab1 p-0 pt-3" style="width: 60%;">
+      <!-- Left half -->
+      <!-- Tab1 -->
+      <div class="tab1 p-0 pt-3" style="width: 60%;">
 
-      <!-- В тариф входит -->
+        <!-- В тариф входит -->
 
-      <h6 class="text-left mt-3 mb-3 font-italic">В тариф входит</h6>
-      <div class="text-left price-text align-items-center d-flex">
-        <span>Домашняя телефония</span>
-        <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
-      </div>
-      <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
-        <span>Подключение за 72 рубля</span>
-        <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
-      </div>
+        <h6 class="text-left mt-3 mb-3 font-italic">В тариф входит</h6>
+        <div class="text-left price-text align-items-center d-flex">
+          <span>Домашняя телефония</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+        <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+          <span>Подключение за 72 рубля</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
 
-      <!-- Дополнительно к тарифу -->
+        <!-- Дополнительно к тарифу -->
 
-      <h6 class="text-left mt-3 mb-3 font-italic">Выберите дополнительно к тарифу</h6>
+        <h6 class="text-left mt-3 mb-3 font-italic">Выберите дополнительно к тарифу</h6>
 
-      <!-- Телефонный аппарат -->
-      <div class="p-0">
-        <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
-        aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/phone.png"/>
-          <span class="p-3">Телефонный аппарат</span>
-          <span class="fa fa-chevron-down ml-3"></span>
-        </a>
-      </div>
-      
-      <div class="collapse" id="collapseTarifRouter">
-        <div class="p-3">
-          <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
-            <span>Телефонный аппарат по полной стоимости за 510 рублей</span>
-            <input id="router" data-price="руб." type="checkbox" 
-            class="checker tarif_checker ml-auto" name="telephone" data-exval="510">
+        <!-- Телефонный аппарат -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/phone.png"/>
+            <span class="p-3">Телефонный аппарат</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifRouter">
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат по полной стоимости за 510 рублей</span>
+              <input id="router" data-price="руб." type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="510">
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат в рассрочку за 85 руб/мес. на 6 месяцев</span>
+              <input id="router" data-price='руб/мес' type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="85">
+            </div>
+          </div>
+        </div> 
+
+        <!-- Определитель номера -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/aon.png"/>
+            <span class="p-3">Определитель номера</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAon">
+          <div class="p-3">
+            <p>
+              Вы всегда сможете узнать кто Вам звонит
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 108 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="aon" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="108" data-exval_2="22">
+            </div>
           </div>
         </div>
-        <div class="p-3">
-          <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
-            <span>Телефонный аппарат в рассрочку за 85 руб/мес. на 6 месяцев</span>
-            <input id="router" data-price='руб/мес' type="checkbox" 
-            class="checker tarif_checker ml-auto" name="telephone" data-exval="85">
+
+        <!-- Переадресация -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <span class="p-3">Переадресация звонка</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlias">
+          <div class="p-3">
+            <p>
+              Вы не пропустите ни одного звонка, даже если Вас нет дома.
+            </p>
+            <p>
+              Переадресация:
+            </p>
+            <ul style="list-style-type: circle !important; display: block;" class="pl-3">
+              <li>Немедленная</li>
+              <li>По неответу (3-4 гудка)</li>
+              <li>По занятости</li>
+            </ul>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="alias" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
           </div>
         </div>
-      </div> 
 
-    </div>
+        <!-- Исходящая связь по паролю -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <span class="p-3">Исходящая связь по паролю</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifPasswd">
+          <div class="p-3">
+            <p>
+              Совершайте платные звонки только после ввода Вашего пароля
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="passwd_tel" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
 
-    <!-- Tab2 -->
-    <div class="tab2 p-0 pt-3" style="width: 60%;">
-      
-      <!-- В тариф входит -->
+        <!-- Будильник -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/alarm.png"/>
+            <span class="p-3">Будильник</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlarm">
+          <div class="p-3">
+            <p>
+              Телефон зазвонит в назначенное Вами время
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 0 рублей</span>
+              <input id="alarm" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="0">
+            </div>
+          </div>
+        </div>
 
-      <h6 class="text-left mt-3 mb-3 font-italic">В тариф входит</h6>
-      <div class="text-left price-text align-items-center d-flex">
-        <span>Домашняя телефония</span>
-        <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
       </div>
-      <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
-        <span>Подключение за 2700 рублей</span>
-        <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+
+      <!-- Tab2 -->
+      <div class="tab2 p-0 pt-3" style="width: 60%;">
+        
+        <!-- В тариф входит -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">В тариф входит</h6>
+        <div class="text-left price-text align-items-center d-flex">
+          <span>Домашняя телефония</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+        <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+          <span>Подключение за 2700 рублей</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+
+        <!-- Дополнительно к тарифу -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">Выберите дополнительно к тарифу</h6>
+
+        <!-- Телефонный аппарат -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/phone.png"/>
+            <span class="p-3">Телефонный аппарат</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifRouter">
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат по полной стоимости за 510 рублей</span>
+              <input id="router" data-price="руб." type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="510">
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат в рассрочку за 85 руб/мес. на 6 месяцев</span>
+              <input id="router" data-price='руб/мес' type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="85">
+            </div>
+          </div>
+        </div> 
+
+        <!-- Определитель номера -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/aon.png"/>
+            <span class="p-3">Определитель номера</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAon">
+          <div class="p-3">
+            <p>
+              Вы всегда сможете узнать кто Вам звонит
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 108 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="aon" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="108" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Переадресация -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <span class="p-3">Переадресация звонка</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlias">
+          <div class="p-3">
+            <p>
+              Вы не пропустите ни одного звонка, даже если Вас нет дома.
+            </p>
+            <p>
+              Переадресация:
+            </p>
+            <ul style="list-style-type: circle !important; display: block;" class="pl-3">
+              <li>Немедленная</li>
+              <li>По неответу (3-4 гудка)</li>
+              <li>По занятости</li>
+            </ul>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="alias" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Исходящая связь по паролю -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <span class="p-3">Исходящая связь по паролю</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifPasswd">
+          <div class="p-3">
+            <p>
+              Совершайте платные звонки только после ввода Вашего пароля
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="passwd_tel" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Будильник -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/alarm.png"/>
+            <span class="p-3">Будильник</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlarm">
+          <div class="p-3">
+            <p>
+              Телефон зазвонит в назначенное Вами время
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 0 рублей</span>
+              <input id="alarm" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="0">
+            </div>
+          </div>
+        </div>
+    
       </div>
 
-      <!-- Дополнительно к тарифу -->
+      <!-- Right half -->
+      <div class="ml-auto modal-tarif-options-right-part">
+        <div class="d-flex flex-column p-0 modal-payment-block">
+          <div id="modalPrices" class="d-flex flex-column flex-grow-1">
+            <h5 class="modal-title pt-3">Платежи:</h5>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Подключение</span>
+              <span class="priceTel1 tab1 ml-auto price-text"></span>
+              <span class="priceTel2 tab2 ml-auto price-text"></span>
+              <span class="price-text ml-3">руб.</span>
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1 displayRouter">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayAonDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetAon">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyAon">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayAliasDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetAlias">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyAlias">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayPasswd_telDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetPasswd_tel">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyPasswd_tel">
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1 displaySetAlarm">
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Телефония</span>
+              <span class="price3 ml-auto price-text"></span>
+              <span class="price-text ml-3">руб/мес</span>
+            </div>
 
-      <h6 class="text-left mt-3 mb-3 font-italic">Выберите дополнительно к тарифу</h6>
+            <!-- Итоговые суммы -->
+            <h5 class="modal-title pt-3">Всего к оплате</h5>
+            <div class="p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Единовременная плата</span>
+              <span class="oncePrice ml-auto price-text"></span>
+              <span class="price-text ml-3">руб.</span>
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Ежемесячная плата</span>
+              <span class="monthlyPrice ml-auto price-text"></span>
+              <span class="price-text ml-3">руб/мес</span>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-dark close2 w-100" data-dismiss="modal" 
+            data-toggle="modal" data-target="#staticBackdrop1">Оставить заявку</button>
+          </div>
+        </div>
+      </div>`);
+    };
 
-      <!-- Телефонный аппарат -->
-      <div class="p-0">
-        <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
-        aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="./images/content/tarif_cards/phone.png"/>
-          <span class="p-3">Телефонный аппарат</span>
-          <span class="fa fa-chevron-down ml-3"></span>
-        </a>
+    if (i == 1) {
+      $('h6.script_headerText').text('У Вас телефонизированное помещение?');
+      $('ul.script_ul').html(`
+      <li class="nav-item">
+        <label class="tes" for="tab1" style="box-shadow: 0px 2px 0px 0px #17A2B8; color: black;">Да, телефонная проводка проведена</label>
+      </li>
+      <li class="nav-item">
+        <label class="tes" for="tab2">Нет, телефонная проводка не проведена</label>
+      </li>`);
+      $('h6.script_headerText').css({
+        'font-style': 'normal'
+      });
+      $('ul.script_ul').css({
+        'width': '70%'
+      });
+
+      $('section.script_section').html(`
+
+      <!-- Left half -->
+      <!-- Tab1 -->
+      <div class="tab1 p-0 pt-3" style="width: 60%;">
+
+        <!-- В тариф входит -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">В тариф входит</h6>
+        <div class="text-left price-text align-items-center d-flex">
+          <span class="w-75">Домашняя телефония c абонентского номера, имеющего выход на сеть общего пользования, включенного в учрежденческую телефонную станцию (Мини-АТС)</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+        <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+          <span>Подключение за 72 рубля</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+
+        <!-- Дополнительно к тарифу -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">Выберите дополнительно к тарифу</h6>
+
+        <!-- Телефонный аппарат -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/phone.png"/>
+            <span class="p-3">Телефонный аппарат</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifRouter">
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат по полной стоимости за 510 рублей</span>
+              <input id="router" data-price="руб." type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="510">
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат в рассрочку за 85 руб/мес. на 6 месяцев</span>
+              <input id="router" data-price='руб/мес' type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="85">
+            </div>
+          </div>
+        </div> 
+
+        <!-- Определитель номера -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/aon.png"/>
+            <span class="p-3">Определитель номера</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAon">
+          <div class="p-3">
+            <p>
+              Вы всегда сможете узнать кто Вам звонит
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 108 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="aon" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="108" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Переадресация -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <span class="p-3">Переадресация звонка</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlias">
+          <div class="p-3">
+            <p>
+              Вы не пропустите ни одного звонка, даже если Вас нет дома.
+            </p>
+            <p>
+              Переадресация:
+            </p>
+            <ul style="list-style-type: circle !important; display: block;" class="pl-3">
+              <li>Немедленная</li>
+              <li>По неответу (3-4 гудка)</li>
+              <li>По занятости</li>
+            </ul>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="alias" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Исходящая связь по паролю -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <span class="p-3">Исходящая связь по паролю</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifPasswd">
+          <div class="p-3">
+            <p>
+              Совершайте платные звонки только после ввода Вашего пароля
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="passwd_tel" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Будильник -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/alarm.png"/>
+            <span class="p-3">Будильник</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlarm">
+          <div class="p-3">
+            <p>
+              Телефон зазвонит в назначенное Вами время
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 0 рублей</span>
+              <input id="alarm" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="0">
+            </div>
+          </div>
+        </div>
+
       </div>
-      
-      <div class="collapse" id="collapseTarifRouter">
-        <div class="p-3">
-          <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
-            <span>Телефонный аппарат по полной стоимости за 510 рублей</span>
-            <input id="router" data-price="руб." type="checkbox" 
-            class="checker tarif_checker ml-auto" name="telephone" data-exval="510">
-          </div>
-        </div>
-        <div class="p-3">
-          <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
-            <span>Телефонный аппарат в рассрочку за 85 руб/мес. на 6 месяцев</span>
-            <input id="router" data-price='руб/мес' type="checkbox" 
-            class="checker tarif_checker ml-auto" name="telephone" data-exval="85">
-          </div>
-        </div>
-      </div> 
-  
-    </div>
 
-    <!-- Right half -->
-    <div class="ml-auto modal-tarif-options-right-part">
-      <div class="d-flex flex-column p-0 modal-payment-block">
-        <div id="modalPrices" class="d-flex flex-column flex-grow-1">
-          <h5 class="modal-title pt-3">Платежи:</h5>
-          <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1">
-            <span class="price-text">Подключение</span>
-            <span class="priceTel1 tab1 ml-auto price-text"></span>
-            <span class="priceTel2 tab2 ml-auto price-text"></span>
-            <span class="price-text ml-3">руб.</span>
-          </div>
-          <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1 displayRouter">
-          </div>
-          <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1">
-            <span class="price-text">Телефония</span>
-            <span class="price3 ml-auto price-text"></span>
-            <span class="price-text ml-3">руб/мес</span>
-          </div>
+      <!-- Tab2 -->
+      <div class="tab2 p-0 pt-3" style="width: 60%;">
+        
+        <!-- В тариф входит -->
 
-          <!-- Итоговые суммы -->
-          <h5 class="modal-title pt-3">Всего к оплате</h5>
-          <div class="p-0 d-flex flex-row flex-grow1">
-            <span class="price-text">Единовременная плата</span>
-            <span class="oncePrice ml-auto price-text"></span>
-            <span class="price-text ml-3">руб.</span>
+        <h6 class="text-left mt-3 mb-3 font-italic">В тариф входит</h6>
+        <div class="text-left price-text align-items-center d-flex">
+          <span class="w-75">Домашняя телефония c абонентского номера, имеющего выход на сеть общего пользования, включенного в учрежденческую телефонную станцию (Мини-АТС)</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+        <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+          <span>Подключение за 2700 рублей</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+
+        <!-- Дополнительно к тарифу -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">Выберите дополнительно к тарифу</h6>
+
+        <!-- Телефонный аппарат -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/phone.png"/>
+            <span class="p-3">Телефонный аппарат</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifRouter">
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат по полной стоимости за 510 рублей</span>
+              <input id="router" data-price="руб." type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="510">
+            </div>
           </div>
-          <div class="p-0 d-flex flex-row flex-grow1">
-            <span class="price-text">Ежемесячная плата</span>
-            <span class="monthlyPrice ml-auto price-text"></span>
-            <span class="price-text ml-3">руб/мес</span>
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат в рассрочку за 85 руб/мес. на 6 месяцев</span>
+              <input id="router" data-price='руб/мес' type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="85">
+            </div>
+          </div>
+        </div> 
+
+        <!-- Определитель номера -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/aon.png"/>
+            <span class="p-3">Определитель номера</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAon">
+          <div class="p-3">
+            <p>
+              Вы всегда сможете узнать кто Вам звонит
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 108 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="aon" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="108" data-exval_2="22">
+            </div>
           </div>
         </div>
-        <div>
-          <button type="button" class="btn btn-outline-dark close2 w-100" data-dismiss="modal" 
-          data-toggle="modal" data-target="#staticBackdrop1">Оставить заявку</button>
+
+        <!-- Переадресация -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <span class="p-3">Переадресация звонка</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
         </div>
+        
+        <div class="collapse" id="collapseTarifAlias">
+          <div class="p-3">
+            <p>
+              Вы не пропустите ни одного звонка, даже если Вас нет дома.
+            </p>
+            <p>
+              Переадресация:
+            </p>
+            <ul style="list-style-type: circle !important; display: block;" class="pl-3">
+              <li>Немедленная</li>
+              <li>По неответу (3-4 гудка)</li>
+              <li>По занятости</li>
+            </ul>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="alias" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Исходящая связь по паролю -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <span class="p-3">Исходящая связь по паролю</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifPasswd">
+          <div class="p-3">
+            <p>
+              Совершайте платные звонки только после ввода Вашего пароля
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="passwd_tel" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Будильник -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/alarm.png"/>
+            <span class="p-3">Будильник</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlarm">
+          <div class="p-3">
+            <p>
+              Телефон зазвонит в назначенное Вами время
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 0 рублей</span>
+              <input id="alarm" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="0">
+            </div>
+          </div>
+        </div>
+    
       </div>
-    </div>`);
+
+      <!-- Right half -->
+      <div class="ml-auto modal-tarif-options-right-part">
+        <div class="d-flex flex-column p-0 modal-payment-block">
+          <div id="modalPrices" class="d-flex flex-column flex-grow-1">
+            <h5 class="modal-title pt-3">Платежи:</h5>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Подключение</span>
+              <span class="priceTel1 tab1 ml-auto price-text"></span>
+              <span class="priceTel2 tab2 ml-auto price-text"></span>
+              <span class="price-text ml-3">руб.</span>
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1 displayRouter">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayAonDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetAon">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyAon">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayAliasDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetAlias">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyAlias">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayPasswd_telDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetPasswd_tel">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyPasswd_tel">
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1 displaySetAlarm">
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Телефония</span>
+              <span class="price3 ml-auto price-text"></span>
+              <span class="price-text ml-3">руб/мес</span>
+            </div>
+
+            <!-- Итоговые суммы -->
+            <h5 class="modal-title pt-3">Всего к оплате</h5>
+            <div class="p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Единовременная плата</span>
+              <span class="oncePrice ml-auto price-text"></span>
+              <span class="price-text ml-3">руб.</span>
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Ежемесячная плата</span>
+              <span class="monthlyPrice ml-auto price-text"></span>
+              <span class="price-text ml-3">руб/мес</span>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-dark close2 w-100" data-dismiss="modal" 
+            data-toggle="modal" data-target="#staticBackdrop1">Оставить заявку</button>
+          </div>
+        </div>
+      </div>`);
+    };
+
+    if (i == 2) {
+      $('h6.script_headerText').text('У Вас имеется широкополосный доступ к сети Интернет?');
+      $('ul.script_ul').html(`
+      <li class="nav-item">
+        <label class="tes" for="tab1" style="box-shadow: 0px 2px 0px 0px #17A2B8; color: black;">Да</label>
+      </li>
+      <li class="nav-item">
+        <label class="tes" for="tab2">Нет</label>
+      </li>`);
+      $('h6.script_headerText').css({
+        'font-style': 'normal'
+      });
+      $('ul.script_ul').css({
+        'width': '70%'
+      });
+
+      $('section.script_section').html(`
+
+      <!-- Left half -->
+      <!-- Tab1 -->
+      <div class="tab1 p-0 pt-3" style="width: 60%;">
+
+        <!-- В тариф входит -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">В тариф входит</h6>
+        <div class="text-left price-text align-items-center d-flex">
+          <span class="w-75">Домашняя телефония по протоколу SIP</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+        <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+          <span>Подключение за 500 рублей</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+
+        <!-- Дополнительно к тарифу -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">Выберите дополнительно к тарифу</h6>
+
+        <!-- Телефонный аппарат -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/phone.png"/>
+            <span class="p-3 w-75">Телефонный аппарат IP - Yealink SIP-T19/T20/T21</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifRouter">
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат по полной стоимости за 4400 рублей</span>
+              <input id="router" data-price="руб." type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="4400">
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат в рассрочку за 733 руб/мес. на 6 месяцев</span>
+              <input id="router" data-price='руб/мес' type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="733">
+            </div>
+          </div>
+        </div> 
+
+        <!-- Определитель номера -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/aon.png"/>
+            <span class="p-3">Определитель номера</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAon">
+          <div class="p-3">
+            <p>
+              Вы всегда сможете узнать кто Вам звонит
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 108 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="aon" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="108" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Переадресация -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <span class="p-3">Переадресация звонка</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlias">
+          <div class="p-3">
+            <p>
+              Вы не пропустите ни одного звонка, даже если Вас нет дома.
+            </p>
+            <p>
+              Переадресация:
+            </p>
+            <ul style="list-style-type: circle !important; display: block;" class="pl-3">
+              <li>Немедленная</li>
+              <li>По неответу (3-4 гудка)</li>
+              <li>По занятости</li>
+            </ul>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="alias" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Исходящая связь по паролю -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <span class="p-3">Исходящая связь по паролю</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifPasswd">
+          <div class="p-3">
+            <p>
+              Совершайте платные звонки только после ввода Вашего пароля
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="passwd_tel" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Будильник -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/alarm.png"/>
+            <span class="p-3">Будильник</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlarm">
+          <div class="p-3">
+            <p>
+              Телефон зазвонит в назначенное Вами время
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 0 рублей</span>
+              <input id="alarm" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="0">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tab2 -->
+      <div class="tab2 p-0 pt-3" style="width: 60%;">
+        
+        <!-- В тариф входит -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">В тариф входит</h6>
+        <div class="text-left price-text align-items-center d-flex">
+          <span class="w-75">Домашняя телефония по протоколу SIP</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+        <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+          <span>Подключение за 2700 рублей</span>
+          <input type="checkbox" class="checker tarif_checker ml-auto" name="" disabled="disabled" checked>
+        </div>
+
+        <!-- Дополнительно к тарифу -->
+
+        <h6 class="text-left mt-3 mb-3 font-italic">Выберите дополнительно к тарифу</h6>
+
+        <!-- Телефонный аппарат -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/phone.png"/>
+            <span class="p-3 w-75">Телефонный аппарат IP - Yealink SIP-T19/T20/T21</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifRouter">
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат по полной стоимости за 4400 рублей</span>
+              <input id="router" data-price="руб." type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="4400">
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Телефонный аппарат в рассрочку за 733 руб/мес. на 6 месяцев</span>
+              <input id="router" data-price='руб/мес' type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="733">
+            </div>
+          </div>
+        </div> 
+
+        <!-- Определитель номера -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/aon.png"/>
+            <span class="p-3">Определитель номера</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAon">
+          <div class="p-3">
+            <p>
+              Вы всегда сможете узнать кто Вам звонит
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 108 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="aon" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="108" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Переадресация -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <span class="p-3">Переадресация звонка</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlias">
+          <div class="p-3">
+            <p>
+              Вы не пропустите ни одного звонка, даже если Вас нет дома.
+            </p>
+            <p>
+              Переадресация:
+            </p>
+            <ul style="list-style-type: circle !important; display: block;" class="pl-3">
+              <li>Немедленная</li>
+              <li>По неответу (3-4 гудка)</li>
+              <li>По занятости</li>
+            </ul>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="alias" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Исходящая связь по паролю -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <span class="p-3">Исходящая связь по паролю</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifPasswd">
+          <div class="p-3">
+            <p>
+              Совершайте платные звонки только после ввода Вашего пароля
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 17 рублей и с ежемесячной платой 22 руб/мес</span>
+              <input id="passwd_tel" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" 
+              data-exval_1="17" data-exval_2="22">
+            </div>
+          </div>
+        </div>
+
+        <!-- Будильник -->
+        <div class="p-0">
+          <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
+          aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
+            <img src="/images/content/tarif_cards/alarm.png"/>
+            <span class="p-3">Будильник</span>
+            <span class="fa fa-chevron-down ml-3"></span>
+          </a>
+        </div>
+        
+        <div class="collapse" id="collapseTarifAlarm">
+          <div class="p-3">
+            <p>
+              Телефон зазвонит в назначенное Вами время
+            </p>
+            <div class="text-left price-text align-items-center d-flex modal-tarif-checker">
+              <span>Подключить за 0 рублей</span>
+              <input id="alarm" data-price="" type="checkbox" 
+              class="checker tarif_checker ml-auto" name="telephone" data-exval="0">
+            </div>
+          </div>
+        </div>
+    
+      </div>
+
+      <!-- Right half -->
+      <div class="ml-auto modal-tarif-options-right-part">
+        <div class="d-flex flex-column p-0 modal-payment-block">
+          <div id="modalPrices" class="d-flex flex-column flex-grow-1">
+            <h5 class="modal-title pt-3">Платежи:</h5>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Подключение</span>
+              <span class="priceTel1 tab1 ml-auto price-text"></span>
+              <span class="priceTel2 tab2 ml-auto price-text"></span>
+              <span class="price-text ml-3">руб.</span>
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1 displayRouter">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayAonDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetAon">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyAon">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayAliasDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetAlias">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyAlias">
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1 displayPasswd_telDescription">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displaySetPasswd_tel">
+            </div>
+            <div class="priceTypeChecker p-0 pl-3 d-flex flex-row flex-grow1 displayMonthlyPasswd_tel">
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1 displaySetAlarm">
+            </div>
+            <div class="priceTypeChecker p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Телефония</span>
+              <span class="price3 ml-auto price-text"></span>
+              <span class="price-text ml-3">руб/мес</span>
+            </div>
+
+            <!-- Итоговые суммы -->
+            <h5 class="modal-title pt-3">Всего к оплате</h5>
+            <div class="p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Единовременная плата</span>
+              <span class="oncePrice ml-auto price-text"></span>
+              <span class="price-text ml-3">руб.</span>
+            </div>
+            <div class="p-0 d-flex flex-row flex-grow1">
+              <span class="price-text">Ежемесячная плата</span>
+              <span class="monthlyPrice ml-auto price-text"></span>
+              <span class="price-text ml-3">руб/мес</span>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-dark close2 w-100" data-dismiss="modal" 
+            data-toggle="modal" data-target="#staticBackdrop1">Оставить заявку</button>
+          </div>
+        </div>
+      </div>`);
+    };
 
     // Top-border for "Итого к оплате"
     $('.modal-tarif-options-right-part').css({
@@ -1171,6 +2172,120 @@ function getPriceTel(box, i) {
       
       $('.displayRouter').html(stringDisplayRouter);
       $('#modalPrices .priceRouter').text(totalRouterPrice);
+    });
+
+    // Реакция на чекбокс "AON"
+    $('input[id="aon"]').change(function(){
+      stringDisplayAonDesc = "";
+      stringDisplaySetAon = "";
+      stringDisplayMonthlyAon = "";
+      
+      if ($(this).is(":checked")) {
+        stringDisplayAonDesc = `
+          <span class="price-text">Определитель номера:</span>
+        `;
+        stringDisplaySetAon = `   
+          <span class="price-text">Подключение</span>
+          <span class="priceAonSet ml-auto price-text"></span>
+          <span class="price-text ml-3">руб.</span>
+        `;
+        stringDisplayMonthlyAon = `   
+          <span class="price-text">Тариф</span>
+          <span class="priceAonMonthly ml-auto price-text"></span>
+          <span class="price-text ml-3">руб/мес</span>
+        `;
+
+        totalAonSetPrice = parseInt($(this).data("exval_1"),10);
+        totalAonMonthPrice = parseInt($(this).data("exval_2"),10);
+      };
+      
+      $('.displayAonDescription').html(stringDisplayAonDesc);
+      $('.displaySetAon').html(stringDisplaySetAon);
+      $('.displayMonthlyAon').html(stringDisplayMonthlyAon);
+      $('#modalPrices .priceAonSet').text(totalAonSetPrice);
+      $('#modalPrices .priceAonMonthly').text(totalAonMonthPrice);
+    });
+
+    // Реакция на чекбокс "Alias"
+    $('input[id="alias"]').change(function(){
+      stringDisplayAliasDesc = "";
+      stringDisplaySetAlias = "";
+      stringDisplayMonthlyAlias = "";
+      
+      if ($(this).is(":checked")) {
+        stringDisplayAliasDesc = `
+          <span class="price-text">Переадресация:</span>
+        `;
+        stringDisplaySetAlias = `   
+          <span class="price-text">Подключение</span>
+          <span class="priceAliasSet ml-auto price-text"></span>
+          <span class="price-text ml-3">руб.</span>
+        `;
+        stringDisplayMonthlyAlias = `   
+          <span class="price-text">Тариф</span>
+          <span class="priceAliasMonthly ml-auto price-text"></span>
+          <span class="price-text ml-3">руб/мес</span>
+        `;
+
+        totalAliasSetPrice = parseInt($(this).data("exval_1"),10);
+        totalAliasMonthPrice = parseInt($(this).data("exval_2"),10);
+      };
+
+      $('.displayAliasDescription').html(stringDisplayAliasDesc);
+      $('.displaySetAlias').html(stringDisplaySetAlias);
+      $('.displayMonthlyAlias').html(stringDisplayMonthlyAlias);
+      $('#modalPrices .priceAliasSet').text(totalAliasSetPrice);
+      $('#modalPrices .priceAliasMonthly').text(totalAliasMonthPrice);
+    });
+
+    // Реакция на чекбокс "Исходящая связь по паролю"
+    $('input[id="passwd_tel"]').change(function(){
+      stringDisplayPasswd_telDesc = "";
+      stringDisplaySetPasswd_tel = "";
+      stringDisplayMonthlyPasswd_tel = "";
+      
+      if ($(this).is(":checked")) {
+        stringDisplayPasswd_telDesc = `
+          <span class="price-text">Звонок по паролю:</span>
+        `;
+        stringDisplaySetPasswd_tel = `   
+          <span class="price-text">Подключение</span>
+          <span class="pricePasswd_telSet ml-auto price-text"></span>
+          <span class="price-text ml-3">руб.</span>
+        `;
+        stringDisplayMonthlyPasswd_tel = `   
+          <span class="price-text">Тариф</span>
+          <span class="pricePasswd_telMonthly ml-auto price-text"></span>
+          <span class="price-text ml-3">руб/мес</span>
+        `;
+
+        totalPasswd_telSetPrice = parseInt($(this).data("exval_1"),10);
+        totalPasswd_telMonthPrice = parseInt($(this).data("exval_2"),10);
+      };
+      
+      $('.displayPasswd_telDescription').html(stringDisplayPasswd_telDesc);
+      $('.displaySetPasswd_tel').html(stringDisplaySetPasswd_tel);
+      $('.displayMonthlyPasswd_tel').html(stringDisplayMonthlyPasswd_tel);
+      $('#modalPrices .pricePasswd_telSet').text(totalPasswd_telSetPrice);
+      $('#modalPrices .pricePasswd_telMonthly').text(totalPasswd_telMonthPrice);
+    });
+
+    // Реакция на чекбокс "Будильник"
+    $('input[id="alarm"]').change(function(){
+      stringDisplaySetAlarm = "";
+      
+      if ($(this).is(":checked")) {
+        stringDisplaySetAlarm = `   
+          <span class="price-text">Будильник</span>
+          <span class="priceAlarmSet ml-auto price-text"></span>
+          <span class="price-text ml-3">руб.</span>
+        `;
+
+        totalAlarmSetPrice = parseInt($(this).data("exval"),10);
+      };
+
+      $('.displaySetAlarm').html(stringDisplaySetAlarm);
+      $('#modalPrices .priceAlarmSet').text(totalAlarmSetPrice);
     });
 
     // Итоговые суммы оплаты
@@ -1275,7 +2390,7 @@ function getPriceIPTV(box, i) {
 
         <!-- IP-TV доп. пакет -->
         <div class="text-left price-text align-items-center d-flex p-3">
-          <img src="./images/content/tarif_cards/ip-tv.png"/>
+          <img src="/images/content/tarif_cards/ip-tv.png"/>
           <span class="p-3">Дополнительный Пакет "Пикантный" за 70 руб/мес.</span> 
           <input id="iptv_erotic" data-price='руб/мес' type="checkbox" 
             class="checker tarif_checker ml-auto" name="ip-tv" data-exval="70">
@@ -1285,7 +2400,7 @@ function getPriceIPTV(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV_box" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="./images/content/tarif_cards/ip-tv_box.png"/>
+            <img src="/images/content/tarif_cards/ip-tv_box.png"/>
             <span class="p-3">IPTV приставка</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1523,7 +2638,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="./images/content/tarif_cards/router.png"/>
+            <img src="/images/content/tarif_cards/router.png"/>
             <span class="p-3">Wi-Fi роутер</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1557,7 +2672,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="./images/content/tarif_cards/ip-tv.png"/>
+            <img src="/images/content/tarif_cards/ip-tv.png"/>
             <span class="p-3">Домашнее телевидение</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1602,7 +2717,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV_box" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="./images/content/tarif_cards/ip-tv_box.png"/>
+            <img src="/images/content/tarif_cards/ip-tv_box.png"/>
             <span class="p-3">IPTV приставка</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1636,7 +2751,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAV" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="./images/content/tarif_cards/antivirus.png"/>
+            <img src="/images/content/tarif_cards/antivirus.png"/>
             <span class="p-3">Антивирус</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1645,7 +2760,7 @@ function getPriceIntGift(box, i) {
         <div class="collapse" id="collapseTarifAV">
           <!-- Kaspersky -->
           <div class="pl-3 media">
-            <img src="./images/content/tarif_cards/kasper.png" class="mr-3"/>
+            <img src="/images/content/tarif_cards/kasper.png" class="mr-3"/>
             <div class="media-body p-0">
               <h6 class="mt-0">Kaspersky Antivirus на одно устройство ПК</h6>
               <p class="m-0">Защита компьютера с ОС Windows от основных видов интернет-угроз.</p>
@@ -1685,7 +2800,7 @@ function getPriceIntGift(box, i) {
           </div>
           <!-- Dr Web -->
           <div class="pl-3 media">
-            <img src="./images/content/tarif_cards/drweb.png" class="mr-3"/>
+            <img src="/images/content/tarif_cards/drweb.png" class="mr-3"/>
             <div class="media-body p-0">
               <h6 class="mt-0">Dr. Web Премиум</h6>
               <p class="m-0">Лицензионная защита на 1 компьютер</p>
@@ -1733,7 +2848,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifCamera" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="./images/content/tarif_cards/camera.png"/>
+            <img src="/images/content/tarif_cards/camera.png"/>
             <span class="p-3">Видеонаблюдение</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1929,7 +3044,7 @@ function getPriceIntGift(box, i) {
             <li>После окончания промо-периода происходит автоматический перевод на действующие 
             условия тарифного плана «Мега» с абонентской платой 1500 рублей. В течение промо-периода 
             либо после его окончания абонент может сменить тарифный план на любой другой действующий 
-            тарифный план.</li>
+            тарифный план.</li>>
           </ul>
         `);
     };

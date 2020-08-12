@@ -458,6 +458,14 @@ figure:hover {
   background-color: #dddddd;
 }
 
+.card-header-style-odd {
+  background-color: #D0D8E8;
+}
+
+.card-header-style-even {
+  background-color: #E9EDF4;
+}
+
 /* telegraph-forms */
 
 .input-telegraph {
@@ -528,9 +536,10 @@ footer {
 
   .product-description {
     margin-top: 0;
-    background: url(../images/content/tsi2.jpg) 50% 50% no-repeat;
+    background: url(../images/content/tsi_2.jpg);
     border-radius: 8px;
     color: white;
+    height: 300px;
   }
 
   #main-logo {

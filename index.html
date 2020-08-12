@@ -16,15 +16,18 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   	<link rel="stylesheet" href="css/styles.css">
-
   </head>
   <body>
     <!-- Navigation -->
     <div class="bg-top-navigation">
       <div class="container">
         <div class="row justify-content-lg-end justify-content-start text-right">
-          <div class="col-5 col-sm-3 col-md-2 col-lg-1 text-left ml-3" style="padding: 0; padding-left: 10px;"><a class="nav-link top-header2" href="index.html" style="padding: 0.5rem 0;">Для меня &nbsp;<span class="fa fa-child"></span></a></div>
-          <div class="col-5 col-sm-4 col-md-3 col-lg-2 text-left mr-auto"><a class="nav-link top-header2" href="./html/biznes.html">Для бизнеса &nbsp;<span class="fa fa-arrow-circle-right"></span></a></div>
+          <div class="text-left ml-3 justify-content-start mr-auto" style="padding: 0; padding-left: 10px;">
+            <a class="nav-link top-header2" href="index.html" style="padding: 0.5rem 0.5rem;">Для меня &nbsp;<span class="fa fa-child"></span></a>
+            <a class="nav-link top-header2" href="./html/biznes.html" style="padding: 0.5rem 0.5rem;">Для бизнеса &nbsp;<span class="fa fa-child"></span>
+            </a>
+            <a class="nav-link top-header2" href="./html/operators.html" style="padding: 0.5rem 0.5rem;">Для операторов &nbsp;<span class="fa fa-child"></span></a>
+          </div>
 
           <!-- Force next columns to break to new line -->
           <div class="w-100 d-block d-lg-none"></div>
@@ -184,10 +187,10 @@
             </div>
             <!-- Telephone tab -->
             <div class="tab-pane fade" id="telephone" role="tabpanel" aria-labelledby="profile-tab">
-              <div class="row content-tickets-tabs 1tab-slider">
+              <div class="row content-tickets-tabs 1tab-slider justify-content-center">
                 <div class="col-12 col-md-6 col-lg-3 tarif-card-trigger">
                   <div class="tarif-card d-flex flex-column">
-                    <h5 class="text-left">Телефония</h5>
+                    <h5 class="text-left">Домашний телефон (аналоговый)</h5>
                     <h6 class="text-left pt-3 pb-3">Бесплатные звонки внутри республики</h6>
                     <h6 class="text-left price-text">Абонентская плата:</h6>
                     <h3 class="text-left tarif-set-price"><span class="tarif-price price3">241</span> руб/мес</h3>
@@ -195,17 +198,39 @@
                     <button id="0tarifBoxTel" type="button" class="btn btn-link link-btn-style" data-toggle="modal" data-target="#staticBackdrop2">Настроить тариф</button>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-9">
-                  <div class="h-100 p-md-3">
-                    <div class="product-description h-100 p-3">
-                      <h5 class="text-right">Ноль рублей внутри сети Тывасвязьинформ</h5>
-                      <p class="text-right mt-3">Звоните внутри республики Тыва с домашнего телефона</p>
-                      <p class="text-right mt-3">Междугородние звонки по России</p>
-                      <p class="text-right mt-3">Звоните в другие страны</p>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-3 tarif-card-trigger">
+                  <div class="tarif-card d-flex flex-column">
+                    <h5 class="text-left">Домашний телефон (при наличии УПАТС)</h5>
+                    <h6 class="text-left pt-3 pb-3">Бесплатные звонки внутри республики</h6>
+                    <h6 class="text-left price-text">Абонентская плата:</h6>
+                    <h3 class="text-left tarif-set-price"><span class="tarif-price price3">380</span> руб/мес</h3>
+                    <button type="button" class="btn btn-outline-dark mt-3" data-toggle="modal" data-target="#staticBackdrop1">Подключить</button>
+                    <button id="1tarifBoxTel" type="button" class="btn btn-link link-btn-style" data-toggle="modal" data-target="#staticBackdrop2">Настроить тариф</button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 tarif-card-trigger">
+                  <div class="tarif-card d-flex flex-column">
+                    <h5 class="text-left">Домашний телефон (IP-телефония)</h5>
+                    <h6 class="text-left pt-3 pb-3">Бесплатные звонки внутри республики</h6>
+                    <h6 class="text-left price-text">Абонентская плата:</h6>
+                    <h3 class="text-left tarif-set-price"><span class="tarif-price price3">241</span> руб/мес</h3>
+                    <button type="button" class="btn btn-outline-dark mt-3" data-toggle="modal" data-target="#staticBackdrop1">Подключить</button>
+                    <button id="2tarifBoxTel" type="button" class="btn btn-link link-btn-style" data-toggle="modal" data-target="#staticBackdrop2">Настроить тариф</button>
                   </div>
                 </div>
               </div>
+
+              <div class="col-12 mb-3">
+                <div class="">
+                  <div class="product-description p-3">
+                    <h5 class="text-right">Ноль рублей внутри сети Тывасвязьинформ</h5>
+                    <p class="text-right mt-3">Звоните внутри республики Тыва с домашнего телефона</p>
+                    <p class="text-right mt-3">Междугородние звонки по России</p>
+                    <p class="text-right mt-3">Звоните в другие страны</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
             <!-- IPTV tab -->
             <div class="tab-pane fade" id="iptv" role="tabpanel" aria-labelledby="contact-tab">

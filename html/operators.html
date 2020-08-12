@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>АО Тывасвязьинформ</title>
     <style>
        @font-face {
@@ -13,7 +13,7 @@
   </style>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+  	<link rel="stylesheet" href="../css/styles.css">
     <script src="../js/jquery-3.4.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
   </head>
@@ -48,6 +48,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!--
         <div class="collapse navbar-collapse justify-content-end mt-auto" id="navbarSupportedContent15">
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link top-header" href="biznes-internet.html"><span class="fa fa-wifi"></span><br class="d-none d-lg-block"> Интернет</a></li>
@@ -80,6 +81,7 @@
             </li>
           </ul>
         </div>
+        -->
       </div>
     </nav>
     <div class="bg-navigation-phone d-block d-lg-none">
@@ -91,19 +93,57 @@
   <!-- End of Navigation -->
   <!-- Content -->
   <div class="bg-content">
-    <div class="container bg-content-container" style="min-height: 592px;">
-      <h5 class="text-left mt-3">ОФИСЫ ПРОДАЖ</h5>
-      <div class="m-3">
-        <img src="../images/map.png">
-      </div>
-      <div class="m-3">
-        <h5 class="text-left">Комментарии</h5>
-        Предлагаем оформить доступ к информации об офисе продаж (КУЭСе) путем нажатия на карте соответствующего региона. При этом после отображается достаточная информация об офисе: адреса и телефоны, руководство и др. Добавить анимацию и карту покрытия сетей ТСИ.
-      </div>
-      <div class="mt-3">
-        <h5>Примеры страницы с других сайтов:</h5>
-        <a href="https://yotazone.ru/zona-pokrytiya-yota/">Пример 1. Yota</a><br>
-        <a href="http://www.netbynet.ru/about/company/network">Пример 1. Netbynet</a>
+    <div class="container bg-content-container">
+      <div class="row inner-content">
+        <h4 class="text-left col-12 mb-3 font-weight-bold">УСЛУГИ ДЛЯ ОПЕРАТОРОВ СВЯЗИ</h4>
+        <div class="col-12 advantages-block d-flex align-items-center justify-content-center" style="height: 500px;">
+          <h2 class="text-center p-3">Блок контента для Операторов</h2>
+        </div>
+        
+        <h2 class="col-12 text-center font-weight-bold mt-3 mb-3">Ваш персональный менеджер</h2>
+        <h2 class="col-12 text-center font-weight-bold mt-3 mb-3">+7 39422 3 70 70</h2>
+        <h2 class="col-12 text-center font-weight-bold mt-3 mb-3">gpsi@tvsi.ru</h2> 
+        <h4 class="col-12 text-center mt-3 mb-3">Менеджер по работе с юридическими лицами</h4> 
+
+        <h4 class="col-12 text-center mt-3 mb-3 font-weight-bold">Оставьте заявку и мы Вам перезвоним</h4>
+        <div class="col-12 d-flex flex-column align-items-center">
+          <div class="row w-100 mt-3 justify-content-center">
+            <h5 class="col-3 text-left d-none d-md-block">Контактное лицо</h5>
+            <input type="" class="col-12 col-md-6 form-control modal-content-input modal-content-header-comment" placeholder="Как Вас зовут?">
+          </div>
+          <div class="row w-100 mt-3 justify-content-center">
+            <h5 class="col-3 text-left d-none d-md-block">Контактный телефон</h5>
+            <input type="" class="col-12 col-md-6 form-control modal-content-input modal-content-header-comment" placeholder="+7(___)___-___">
+          </div>
+          <div class="row w-100 mt-3 justify-content-center">
+            <h5 class="col-3 text-left d-none d-md-block">Наименование организации</h5>
+            <input type="" class="col-12 col-md-6 form-control modal-content-input modal-content-header-comment" placeholder="Наименование">
+          </div>
+
+          <div class="row w-100 mt-3 justify-content-center">
+            <div class="col-md-9">
+              <input class="form-check-input checker ml-md-3" type="checkbox" value="" id="">
+              <span>Согласен на обработку персональных данных в соответствии с <a href="#">условиями</a></span>
+            </div>
+            <div class="col-12 col-md-9 mt-3">
+              <button type="button" class="btn btn-outline-dark" data-dismiss="modal" data-toggle="modal" data-target="#staticBackdrop2">Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal content (Конечная) -->
+        <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body row justify-content-center">
+                <h5 class="modal-title" id="staticBackdropLabel2">Спасибо, что выбрали нас!</h5>
+                <h6 class="modal-title" id="staticBackdropLabel2">Пожалуйста, ожидайте звонок от менеджера</h6>
+                <button type="button" class="btn btn-outline-dark w-50 mt-3" data-dismiss="modal">На главную</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

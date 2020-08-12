@@ -22,8 +22,12 @@
     <div class="bg-top-navigation">
       <div class="container">
         <div class="row justify-content-lg-end justify-content-start text-right">
-          <div class="col-5 col-sm-3 col-md-2 col-lg-1 text-left ml-3" style="padding: 0; padding-left: 10px;"><a class="nav-link top-header2" href="../index.html" style="padding: 0.5rem 0;">Для меня &nbsp;<span class="fa fa-child"></span></a></div>
-          <div class="col-5 col-sm-4 col-md-3 col-lg-2 text-left mr-auto"><a class="nav-link top-header2" href="biznes.html">Для бизнеса &nbsp;<span class="fa fa-arrow-circle-right"></span></a></div>
+          <div class="text-left ml-3 justify-content-start mr-auto" style="padding: 0; padding-left: 10px;">
+            <a class="nav-link top-header2" href="../index.html" style="padding: 0.5rem 0.5rem;">Для меня &nbsp;<span class="fa fa-child"></span></a>
+            <a class="nav-link top-header2" href="../html/biznes.html" style="padding: 0.5rem 0.5rem;">Для бизнеса &nbsp;<span class="fa fa-child"></span>
+            </a>
+            <a class="nav-link top-header2" href="../html/operators.html" style="padding: 0.5rem 0.5rem;">Для операторов &nbsp;<span class="fa fa-child"></span></a>
+          </div>
 
           <!-- Force next columns to break to new line -->
           <div class="w-100 d-block d-lg-none"></div>
@@ -68,7 +72,7 @@
   <div class="bg-content">
     <div class="container bg-content-container">
       <div class="row inner-content">
-        <h4 class="col-12 text-left">Телефония</h4>
+        <h4 class="col-12 text-left">Домашний телефон</h4>
         <div class="col-12 advantages-block">
           <h2 class="text-center">Рекламный блок с указанием преимуществ телефонии от ТСИ</h2>
         </div>
@@ -76,10 +80,10 @@
       <h4 class="col-12 text-left p-0">Ежемесячные тарифы на телефонию</h4>
       <!-- Заявки телефонии -->
       <div class="active">
-        <div class="row content-tickets-tabs 0tab-slider">
+        <div class="row content-tickets-tabs 0tab-slider justify-content-center">
           <div class="col-12 col-md-6 col-lg-3 tarif-card-trigger">
             <div class="tarif-card d-flex flex-column">
-              <h5 class="text-left">Телефония</h5>
+              <h5 class="text-left">Домашний телефон (аналоговый)</h5>
               <h6 class="text-left pt-3 pb-3">Бесплатные звонки внутри республики</h6>
               <h6 class="text-left price-text">Абонентская плата:</h6>
               <h3 class="text-left tarif-set-price"><span class="tarif-price price3">241</span> руб/мес</h3>
@@ -87,15 +91,36 @@
               <button id="0tarifBoxTel" type="button" class="btn btn-link link-btn-style" data-toggle="modal" data-target="#staticBackdrop2">Настроить тариф</button>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-9">
-            <div class="h-100 p-md-3">
-              <div class="product-description h-100 p-3">
-                <h5 class="text-right">Ноль рублей внутри сети Тывасвязьинформ</h5>
-                <p class="text-right mt-3">Звоните внутри республики Тыва с домашнего телефона</p>
-                <p class="text-right mt-3">Междугородние звонки по России</p>
-                <p class="text-right mt-3">Звоните в другие страны</p>
-              </div>
+          <div class="col-12 col-md-6 col-lg-3 tarif-card-trigger">
+            <div class="tarif-card d-flex flex-column">
+              <h5 class="text-left">Домашний телефон (при наличии УПАТС)</h5>
+              <h6 class="text-left pt-3 pb-3">Бесплатные звонки внутри республики</h6>
+              <h6 class="text-left price-text">Абонентская плата:</h6>
+              <h3 class="text-left tarif-set-price"><span class="tarif-price price3">380</span> руб/мес</h3>
+              <button type="button" class="btn btn-outline-dark mt-3" data-toggle="modal" data-target="#staticBackdrop1">Подключить</button>
+              <button id="1tarifBoxTel" type="button" class="btn btn-link link-btn-style" data-toggle="modal" data-target="#staticBackdrop2">Настроить тариф</button>
             </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 tarif-card-trigger">
+            <div class="tarif-card d-flex flex-column">
+              <h5 class="text-left">Домашний телефон (IP-телефония)</h5>
+              <h6 class="text-left pt-3 pb-3">Бесплатные звонки внутри республики</h6>
+              <h6 class="text-left price-text">Абонентская плата:</h6>
+              <h3 class="text-left tarif-set-price"><span class="tarif-price price3">241</span> руб/мес</h3>
+              <button type="button" class="btn btn-outline-dark mt-3" data-toggle="modal" data-target="#staticBackdrop1">Подключить</button>
+              <button id="2tarifBoxTel" type="button" class="btn btn-link link-btn-style" data-toggle="modal" data-target="#staticBackdrop2">Настроить тариф</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="">
+          <div class="product-description p-3">
+            <h5 class="text-right">Ноль рублей внутри сети Тывасвязьинформ</h5>
+            <p class="text-right mt-3">Звоните внутри республики Тыва с домашнего телефона</p>
+            <p class="text-right mt-3">Междугородние звонки по России</p>
+            <p class="text-right mt-3">Звоните в другие страны</p>
           </div>
         </div>
       </div>
@@ -222,6 +247,181 @@
         </div>
       </div>
 
+      <!-- Справочные номера -->
+      <h4 class="col-12 text-left mt-3 p-0"><a href="https://tuva.ru/spravochnaya/spisok_telefonov/">Список телефонов социально-значимых служб</a></h4>
+
+      <!-- Бесплатные сервисы -->
+      <h4 class="col-12 text-left mt-3 p-0">Бесплатные сервисы для абонентов Тывасвязьинформ</h4>
+      <div class="accordion mt-3" id="accordionExample">
+        <div class="card">
+          <div class="card-header card-header-style-odd" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+              style="font-size: .6em; color: black;">
+                Заказ переговоров и справочная по услугам междугородной и международной телефонной связи - служба «07»
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <h6 class="text-left font-weight-bold">Услуги, предоставляемые службой «07»</h6>
+              <p>
+                Предоставление внутризоновых, междугородных, международных разговоров по заказной системе обслуживания со стационарных телефонов ч\з «07» и с  переговорного пункта.
+              </p>
+              <h6>Предоставление платных дополнительных услуг:</h6>
+              <ul>
+                <li>
+                  Уведомление по адресу вызываемого лица с приглашением его для внутризонового, междугородного и международного (страны СНГ) разговора (телеграмма «Переговор»);
+                </li>
+                <li>
+                  Извещение вызываемого лица (по просьбе вызывающего абонента) о том, кто его вызывает для разговора по заказу с уведомлением;
+                </li>
+                <li>
+                  Вызов к телефону определенного лица (персональный разговор);
+                  Извещение вызываемого лица об отказе вызывающего абонента от разговора по заказу с уведомлением;
+                </li>
+                <li>
+                  Отказ вызываемого или вызывающего абонента в момент соединения;
+                </li>
+                <li>
+                  Переадресация разговора с уведомлением (по просьбе вызываемого абонента) на номер телефона или другой переговорный пункт;
+                </li>
+                <li>
+                  Наведение справки об абонентском номере в другом населенном пункте;
+                </li>
+                <li>
+                  Предоставление междугородного соединения в назначенное пользователем время (определенное время);
+                </li>
+                <li>
+                  Предупреждение по вызываемому абонентскому номеру о времени предстоящего междугородного телефонного соединения.
+                </li>
+              </ul>
+              <h6 class="text-left font-weight-bold">Каким образом воспользоваться можно воспользоваться сервисом?</h6>
+              <h6 class="text-left font-weight-bold">Позвонив по номеру «07» с домашнего телефона</h6>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header card-header-style-even" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+              style="font-size: .6em; color: black;">
+                Бюро ремонта телефонной связи – служба «08» 
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <h6 class="text-left font-weight-bold">Прием заявок на повреждение принимаются:</h6>
+              <p>
+                круглосуточно службой «08» (на всей территории Республики Тыва)
+                пн-пт с 09.00 до 17.00 чч. 21408, 51010, 27108, 62108 (для г. Кызыла  Кызылского кожууна)
+              </p>
+              <p>
+                При возникновении спорных вопросов по приёму заявок, сроков устранения повреждений, перерасчёта за время отсутствия связи Вы можете обратиться к Инженеру ЦБР по телефонам:
+              </p>
+              <p>
+                2-15-51 (для г. Кызыла  Кызылского кожууна)
+              </p>
+              <h6 class="text-left font-weight-bold">К сведению абонента:</h6>
+              <p>
+                Перерасчет предоставляется с момента обращения в бюро ремонта об отсутствие связи до устранения повреждения.
+              </p>
+              <p>
+                Повреждение внутри квартиры, здания, кабинета устраняются платно, по наряду в согласованное время абонента с оператором связи и перерасчет не предоставляется.
+              </p>
+              <p>
+                В период отключения номера за дебиторскую задолженность перерасчет не предоставляется.
+              </p>
+              <h6 class="text-left font-weight-bold">Каким образом можно воспользоваться сервисом?</h6>
+              <h6 class="text-left font-weight-bold">Позвонив по номеру:</h6>
+              <p>«08» с домашнего телефона</p>
+              <p>+7(394-22)21408 с мобильной связи</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header card-header-style-odd" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: .6em; color: black;">
+                Единая справочная по услугам связи – служба «09»
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <h6 class="text-left font-weight-bold">Услуги, предоставляемые справочной службой «09»</h6>
+              <p>
+                Бесплатная справка о номерах телефонов по полным данным. 
+              </p>
+              <p>
+                Бесплатная справка о номерах фирм, их товаров и услугах.
+              </p>
+              <p>
+                Предоставление иной дополнительной информации, связанной с услугами телефонной связи: коды населенных пунктов,  порядок набора междугородного соединения, разница во времени между населенными пунктами, информация о местном времени.
+              </p>
+              <p>
+                Телефонист вправе отказать в предоставлении сведений о номере телефона, если нет точных данных: ФИО, адреса, названия предприятия.
+              </p>
+              <p>
+                Информация об абонентах, не давших согласие на предоставление справок об их телефонном номере, в базе данных справочно-информационной службы отсутствует.
+              </p>
+              <h6 class="text-left font-weight-bold">Каким образом можно воспользоваться сервисом?</h6>
+              <h6 class="text-left font-weight-bold">Позвонив по номеру:</h6>
+              <p>«09» с домашнего телефона</p>
+              <p>+7(394-22)33305 с мобильной связи</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header card-header-style-even" id="headingFour">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree" style="font-size: .6em; color: black;">
+                Другие сервисы 
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              <table class="requisites">
+                  <tr>
+                    <td>Прием телеграмм в кредит</td>
+                    <td class="text-center">+7(394-22) 2 16 88</td>
+                  </tr>
+                  <tr>
+                    <td class="w-50">
+                      Проверка баланса и номера лицевого счета.
+                      Позвонив со своего домашнего телефона, Вы можете узнать о сумме долга за пользование телефонными услугами
+                    </td>
+                    <td class="text-center">+7(394-22) 5 55 55</td>
+                  </tr>
+                  <tr>
+                    <td class="font-weight-bold">Центр продаж услуг</td>
+                    <td class="font-weight-bold text-center">+7(394-22) 3 70 70</td>
+                  </tr>
+                  <tr>
+                    <td>Техподдержка Интернета</td>
+                    <td class="text-center">+7(394-22) 2 01 10</td>
+                  </tr>
+                  <tr>
+                    <td>Техподдержка Телефонии</td>
+                    <td class="text-center">+7(394-22) 2 01 11</td>
+                  </tr>
+                  <tr>
+                    <td>Служба горячей линии</td>
+                    <td class="text-center">+7(394-22) 2 22 22</td>
+                  </tr>
+                  <tr>
+                    <td>Справочная по кодам</td>
+                    <td class="text-center">+7(394-22) 2 26 26</td>
+                  </tr>
+                </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Разовые тарифы -->
       <h4 class="col-12 text-left mt-3 p-0">Стоимость при подключении услуг</h4>
       <ul class="nav nav-tabs content-tickets" id="myTab" role="tablist">
@@ -230,6 +430,15 @@
         </li>
         <li class="nav-item" role="presentation">
           <a class="nav-link content-tickets-item" id="contact-tab" data-toggle="tab" href="#device" role="tab" aria-controls="packets" aria-selected="false">Стоимость оборудования</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link content-tickets-item" id="contact-tab" data-toggle="tab" href="#others" role="tab" aria-controls="packets" aria-selected="false">Прочие тарифы</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link content-tickets-item" id="contact-tab" data-toggle="tab" href="#mgmn" role="tab" aria-controls="packets" aria-selected="false">Междугородняя и международная связь</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link content-tickets-item" id="contact-tab" data-toggle="tab" href="#additional" role="tab" aria-controls="packets" aria-selected="false">Дополнительные услуги</a>
         </li>
       </ul>
       <div class="tab-content w-100" id="myTabContent">
@@ -255,8 +464,26 @@
             </div>
             <div class="col-12 col-md-6 content-tickets-tabs-items d-flex flex-column">
               <h5 class="text-left">IP-телефон</h5>
-              <h3 class="text-left tarif-price mt-auto">4100 руб.</h3>
+              <h3 class="text-left tarif-price mt-auto">4400 руб.</h3>
             </div>
+          </div>
+        </div>
+        <!-- Прочие tab -->
+        <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="row content-tickets-tabs">
+            <a href="../images/content/tel_tarifs/others.png">Показать прочие тарифы</a>
+          </div>
+        </div>
+        <!-- МГМН tab -->
+        <div class="tab-pane fade" id="mgmn" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="row content-tickets-tabs">
+            <a href="https://tuva.ru/uslugi/telephony/sity_and_international_calls/index.php">Показать МГ и МН тарифы</a>
+          </div>
+        </div>
+        <!-- Доп услуги tab -->
+        <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="row content-tickets-tabs">
+            <a href="../images/content/tel_tarifs/additional.png">Показать тарифы на дополнительные услуги</a>
           </div>
         </div>
       </div>
@@ -315,6 +542,6 @@
   <script src="../js/jquery-3.4.1.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../slick/slick.min.js"></script>
-  <script type="text/javascript" src="../js/script_tel.js"></script>
+  <script type="text/javascript" src="../js/script.js"></script>
   </body>
 </html>
