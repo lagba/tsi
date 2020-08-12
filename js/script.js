@@ -176,7 +176,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/router.png"/>
+          <img src="tsi/images/content/tarif_cards/router.png"/>
           <span class="p-3">Wi-Fi роутер</span>
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -210,7 +210,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/ip-tv.png"/>
+          <img src="/tsi/images/content/tarif_cards/ip-tv.png"/>
           <span class="p-3">Домашнее телевидение</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -255,7 +255,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV_box" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/ip-tv_box.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/ip-tv_box.png"/>
           <span class="p-3">IPTV приставка</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -289,7 +289,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifAV" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/antivirus.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/antivirus.png"/>
           <span class="p-3">Антивирус</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -298,7 +298,7 @@ function getPriceInt(box, i) {
       <div class="collapse" id="collapseTarifAV">
         <!-- Kaspersky -->
         <div class="pl-3 media">
-          <img src="/images/content/tarif_cards/kasper.png" class="mr-3"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/kasper.png" class="mr-3"/>
           <div class="media-body p-0">
             <h6 class="mt-0">Kaspersky Antivirus на одно устройство ПК</h6>
             <p class="m-0">Защита компьютера с ОС Windows от основных видов интернет-угроз.</p>
@@ -338,7 +338,7 @@ function getPriceInt(box, i) {
         </div>
         <!-- Dr Web -->
         <div class="pl-3 media">
-          <img src="/images/content/tarif_cards/drweb.png" class="mr-3"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/drweb.png" class="mr-3"/>
           <div class="media-body p-0">
             <h6 class="mt-0">Dr. Web Премиум</h6>
             <p class="m-0">Лицензионная защита на 1 компьютер</p>
@@ -386,7 +386,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifCamera" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/camera.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/camera.png"/>
           <span class="p-3">Видеонаблюдение</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -436,7 +436,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/router.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/router.png"/>
           <span class="p-3">Wi-Fi роутер</span>
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -470,7 +470,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/ip-tv.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/ip-tv.png"/>
           <span class="p-3">Домашнее телевидение</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -515,7 +515,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV_box" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/ip-tv_box.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/ip-tv_box.png"/>
           <span class="p-3">IPTV приставка</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -549,7 +549,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifAV" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/antivirus.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/antivirus.png"/>
           <span class="p-3">Антивирус</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -558,7 +558,7 @@ function getPriceInt(box, i) {
       <div class="collapse" id="collapseTarifAV">
         <!-- Kaspersky -->
         <div class="pl-3 media">
-          <img src="/images/content/tarif_cards/kasper.png" class="mr-3"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/kasper.png" class="mr-3"/>
           <div class="media-body p-0">
             <h6 class="mt-0">Kaspersky Antivirus на одно устройство ПК</h6>
             <p class="m-0">Защита компьютера с ОС Windows от основных видов интернет-угроз.</p>
@@ -598,7 +598,7 @@ function getPriceInt(box, i) {
         </div>
         <!-- Dr Web -->
         <div class="pl-3 media">
-          <img src="/images/content/tarif_cards/drweb.png" class="mr-3"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/drweb.png" class="mr-3"/>
           <div class="media-body p-0">
             <h6 class="mt-0">Dr. Web Премиум</h6>
             <p class="m-0">Лицензионная защита на 1 компьютер</p>
@@ -646,7 +646,7 @@ function getPriceInt(box, i) {
       <div class="p-0">
         <a class="btn" data-toggle="collapse" data-target="#collapseTarifCamera" 
         aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-          <img src="/images/content/tarif_cards/camera.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/camera.png"/>
           <span class="p-3">Видеонаблюдение</span> 
           <span class="fa fa-chevron-down ml-3"></span>
         </a>
@@ -1016,7 +1016,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/phone.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/phone.png"/>
             <span class="p-3">Телефонный аппарат</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1043,7 +1043,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/aon.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/aon.png"/>
             <span class="p-3">Определитель номера</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1067,7 +1067,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/tel_alias.png"/>
             <span class="p-3">Переадресация звонка</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1099,7 +1099,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/passwd_tel.png"/>
             <span class="p-3">Исходящая связь по паролю</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1123,7 +1123,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/alarm.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/alarm.png"/>
             <span class="p-3">Будильник</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1167,7 +1167,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/phone.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/phone.png"/>
             <span class="p-3">Телефонный аппарат</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1194,7 +1194,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/aon.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/aon.png"/>
             <span class="p-3">Определитель номера</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1218,7 +1218,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/tel_alias.png"/>
             <span class="p-3">Переадресация звонка</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1250,7 +1250,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/passwd_tel.png"/>
             <span class="p-3">Исходящая связь по паролю</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1274,7 +1274,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/alarm.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/alarm.png"/>
             <span class="p-3">Будильник</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1397,7 +1397,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/phone.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/phone.png"/>
             <span class="p-3">Телефонный аппарат</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1424,7 +1424,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/aon.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/aon.png"/>
             <span class="p-3">Определитель номера</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1448,7 +1448,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/tel_alias.png"/>
             <span class="p-3">Переадресация звонка</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1480,7 +1480,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/passwd_tel.png"/>
             <span class="p-3">Исходящая связь по паролю</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1504,7 +1504,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/alarm.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/alarm.png"/>
             <span class="p-3">Будильник</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1548,7 +1548,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/phone.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/phone.png"/>
             <span class="p-3">Телефонный аппарат</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1575,7 +1575,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/aon.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/aon.png"/>
             <span class="p-3">Определитель номера</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1599,7 +1599,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/tel_alias.png"/>
             <span class="p-3">Переадресация звонка</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1631,7 +1631,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/passwd_tel.png"/>
             <span class="p-3">Исходящая связь по паролю</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1655,7 +1655,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/alarm.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/alarm.png"/>
             <span class="p-3">Будильник</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1778,7 +1778,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/phone.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/phone.png"/>
             <span class="p-3 w-75">Телефонный аппарат IP - Yealink SIP-T19/T20/T21</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1805,7 +1805,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/aon.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/aon.png"/>
             <span class="p-3">Определитель номера</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1829,7 +1829,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/tel_alias.png"/>
             <span class="p-3">Переадресация звонка</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1861,7 +1861,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/passwd_tel.png"/>
             <span class="p-3">Исходящая связь по паролю</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1885,7 +1885,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/alarm.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/alarm.png"/>
             <span class="p-3">Будильник</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1929,7 +1929,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/phone.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/phone.png"/>
             <span class="p-3 w-75">Телефонный аппарат IP - Yealink SIP-T19/T20/T21</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1956,7 +1956,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAon" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/aon.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/aon.png"/>
             <span class="p-3">Определитель номера</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -1980,7 +1980,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlias" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/tel_alias.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/tel_alias.png"/>
             <span class="p-3">Переадресация звонка</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -2012,7 +2012,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifPasswd" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/passwd_tel.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/passwd_tel.png"/>
             <span class="p-3">Исходящая связь по паролю</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -2036,7 +2036,7 @@ function getPriceTel(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAlarm" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/alarm.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/alarm.png"/>
             <span class="p-3">Будильник</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -2390,7 +2390,7 @@ function getPriceIPTV(box, i) {
 
         <!-- IP-TV доп. пакет -->
         <div class="text-left price-text align-items-center d-flex p-3">
-          <img src="/images/content/tarif_cards/ip-tv.png"/>
+          <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/ip-tv.png"/>
           <span class="p-3">Дополнительный Пакет "Пикантный" за 70 руб/мес.</span> 
           <input id="iptv_erotic" data-price='руб/мес' type="checkbox" 
             class="checker tarif_checker ml-auto" name="ip-tv" data-exval="70">
@@ -2400,7 +2400,7 @@ function getPriceIPTV(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV_box" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/ip-tv_box.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/ip-tv_box.png"/>
             <span class="p-3">IPTV приставка</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -2638,7 +2638,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifRouter" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/router.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/router.png"/>
             <span class="p-3">Wi-Fi роутер</span>
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -2672,7 +2672,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/ip-tv.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/ip-tv.png"/>
             <span class="p-3">Домашнее телевидение</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -2717,7 +2717,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifIP-TV_box" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/ip-tv_box.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/ip-tv_box.png"/>
             <span class="p-3">IPTV приставка</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -2751,7 +2751,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifAV" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/antivirus.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/antivirus.png"/>
             <span class="p-3">Антивирус</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
@@ -2760,7 +2760,7 @@ function getPriceIntGift(box, i) {
         <div class="collapse" id="collapseTarifAV">
           <!-- Kaspersky -->
           <div class="pl-3 media">
-            <img src="/images/content/tarif_cards/kasper.png" class="mr-3"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/kasper.png" class="mr-3"/>
             <div class="media-body p-0">
               <h6 class="mt-0">Kaspersky Antivirus на одно устройство ПК</h6>
               <p class="m-0">Защита компьютера с ОС Windows от основных видов интернет-угроз.</p>
@@ -2800,7 +2800,7 @@ function getPriceIntGift(box, i) {
           </div>
           <!-- Dr Web -->
           <div class="pl-3 media">
-            <img src="/images/content/tarif_cards/drweb.png" class="mr-3"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/drweb.png" class="mr-3"/>
             <div class="media-body p-0">
               <h6 class="mt-0">Dr. Web Премиум</h6>
               <p class="m-0">Лицензионная защита на 1 компьютер</p>
@@ -2848,7 +2848,7 @@ function getPriceIntGift(box, i) {
         <div class="p-0">
           <a class="btn" data-toggle="collapse" data-target="#collapseTarifCamera" 
           aria-expanded="false" aria-controls="collapseExample" style="padding: 1rem 1rem !important;">
-            <img src="/images/content/tarif_cards/camera.png"/>
+            <img src="https://github.com/lagba/tsi/tree/master/images/content/tarif_cards/camera.png"/>
             <span class="p-3">Видеонаблюдение</span> 
             <span class="fa fa-chevron-down ml-3"></span>
           </a>
