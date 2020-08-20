@@ -98,7 +98,8 @@
             <a class="nav-link active company-content-pill" id="v-pills-home-tab" data-toggle="pill" href="#tp" role="tab" aria-controls="v-pills-home" aria-selected="true">Виртуальная приемная</a>
             <a class="nav-link company-content-pill" id="v-pills-home-tab" data-toggle="pill" href="#feedback" role="tab" aria-controls="v-pills-home" aria-selected="true">Обратная связь</a>
             <a class="nav-link company-content-pill" id="v-pills-profile-tab" data-toggle="pill" href="#router" role="tab" aria-controls="v-pills-profile" aria-selected="false">Инструкции по настройке</a>
-            <a class="nav-link company-content-pill" id="v-pills-profile-tab" data-toggle="pill" href="#question" role="tab" aria-controls="v-pills-profile" aria-selected="false">Часто задаваемые вопросы</a>
+            <a class="nav-link company-content-pill" id="v-pills-profile-tab" data-toggle="pill" href="#question" role="tab" aria-controls="v-pills-profile" aria-selected="false">Узнать техническую возможность подключения</a>
+            <a class="nav-link company-content-pill" id="v-pills-profile-tab" data-toggle="pill" href="#Netmap" role="tab" aria-controls="v-pills-profile" aria-selected="false">Карта покрытия сетей ТСИ</a>
           </div>
         </div>
         <div class="col-12 col-sm-9 order-last">
@@ -212,8 +213,58 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
             <div class="tab-pane fade" id="question" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-              <h5 class="text-left">Часто задаваемые вопросы</h5>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h5 class="text-left">Узнайте техническую возможность подключения услуг связи по Вашему адресу</h5>
+              <div class="col-12 d-flex flex-column align-items-start">
+                <div class="row w-100 mt-3 justify-content-start">
+                  <h6 class="col-3 text-left d-none d-md-block">Населенный пункт</h6>
+                  <input type="" class="col-12 col-md-8 form-control modal-content-input modal-content-header-comment" placeholder="Город/село">
+                </div>
+                <div class="row w-100 mt-3 justify-content-start">
+                  <h6 class="col-3 text-left d-none d-md-block">Улица/проспект</h6>
+                  <input type="" class="col-12 col-md-8 form-control modal-content-input modal-content-header-comment" placeholder="Улица/проспект">
+                </div>
+                <div class="row w-100 mt-3 justify-content-start">
+                  <h6 class="col-3 text-left d-none d-md-block">Номер дома</h6>
+                  <input type="" class="col-12 col-md-8 form-control modal-content-input modal-content-header-comment" placeholder="Дом">
+                </div>
+                <div class="row w-100 mt-3 justify-content-start">
+                  <h6 class="col-3 text-left d-none d-md-block">Корпус/Квартира</h6>
+                  <input type="" class="col-12 col-md-8 form-control modal-content-input modal-content-header-comment" placeholder="При наличии Корпус/Квартира">
+                </div>
+                <div class="row w-100 mt-3 justify-content-start">
+                  <h6 class="col-3 text-left d-none d-md-block">Тип услуги</h6>
+                  <select id="inputState" class="col-8 mb-3 form-control input-telegraph custom-select mr-sm-2">
+                    <option selected>Выбрать интересующую услугу</option>
+                    <option value="1">Интернет</option>
+                    <option value="2">Телефония</option>
+                    <option value="3">Домашнее телевидение</option>
+                    <option value="4">Телеграф</option>
+                    <option value="5">Видеонаблюдение</option>
+                    <option value="6">Другое</option>
+                  </select>
+                </div>                
+                <div class="row w-100 mt-3 justify-content-start">
+                  <div class="col-12 col-md-9">
+                    <button type="button" class="btn btn-outline-dark" data-toggle="modal">Готово</button>
+                  </div>
+                </div>
+
+                <div style="margin-top: 4rem;">
+                  <h5>Примеры страницы с других сайтов:</h5>
+                  <a href="https://tuva.ru/uslugi/internet/ethernet/ethernet.php">Пример 1. Старый сайт ТСИ</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="tab-pane fade" id="Netmap" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <h5 class="text-left">Карта покрытия сетей Тывасвязьинформ</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2545714.8258271324!2d92.28837388936562!3d51.4572451282261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d3bb3d60b8142f5%3A0x103c6af52459520!2z0KDQtdGB0L_Rg8yB0LHQu9C40LrQsCDQotGL0LLQsMyB!5e0!3m2!1sru!2sru!4v1597902461416!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+              <div style="margin-top: 4rem;">
+                <h5>Пример конечного варианта карты покрытия:</h5>
+                <img src="../images/Netmap.png">
+              </div>
+
             </div>
           </div>
         </div>
