@@ -18,7 +18,7 @@ var Internet = [
       {
         "setPrice1" : 1,
         "setPrice2" : 100,
-        "monthPrice" : 1700
+        "monthPrice" : 1500
       }
   ];
 var Telephone = [
